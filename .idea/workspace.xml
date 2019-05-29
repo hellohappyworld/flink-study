@@ -2,31 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3108be05-f7e7-43ef-83d8-446d6e7ffba7" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/gaowj/CoGroupDemo$$anon$4$$anon$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/gaowj/CoGroupDemo$$anon$4$$anonfun$createSerializer$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/gaowj/CoGroupDemo$$anon$4.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/gaowj/CoGroupDemo$$anon$5$$anon$2.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/gaowj/CoGroupDemo$$anon$5$$anonfun$createSerializer$2.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/gaowj/CoGroupDemo$$anon$5.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/gaowj/CoGroupDemo$$anon$6$$anon$3.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/gaowj/CoGroupDemo$$anon$6$$anonfun$createSerializer$3.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/gaowj/CoGroupDemo$$anon$6.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/gaowj/CoGroupDemo$$anonfun$1$$anonfun$apply$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/gaowj/CoGroupDemo$$anonfun$1$$anonfun$apply$2.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/gaowj/CoGroupDemo$$anonfun$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/gaowj/CoGroupDemo$.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/gaowj/CoGroupDemo.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/gaowj/ConnectedStreamsDemo$$anonfun$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/gaowj/ConnectedStreamsDemo$$anonfun$2.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/gaowj/ConnectedStreamsDemo$$anonfun$3.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/gaowj/ConnectedStreamsDemo$$anonfun$4.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/gaowj/ConnectedStreamsDemo$.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/gaowj/ConnectedStreamsDemo.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/filecsv1" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/filecsv2" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/gaowj/CoGroupDemo.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/gaowj/api/CoGroupDemo.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/gaowj/ConnectedStreamsDemo.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/gaowj/api/ConnectedStreamsDemo.scala" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/gaowj/operation/MulCountStream.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/gaowj/operation/MulCountStream.scala" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,18 +19,28 @@
       <file leaf-file-name="CoGroupDemo.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/gaowj/api/CoGroupDemo.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+            <state relative-caret-position="240">
+              <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConnectedStreamsDemo.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ConnectedStreamsDemo.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/gaowj/api/ConnectedStreamsDemo.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+            <state relative-caret-position="168">
+              <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MulCountStream.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/gaowj/operation/MulCountStream.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -88,6 +75,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/gaowj/ConnectedStreamsDemo.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/gaowj/CoGroupDemo.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/gaowj/api/ConnectedStreamsDemo.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/gaowj/api/CoGroupDemo.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/gaowj/operation/MulCountStream.scala" />
       </list>
     </option>
   </component>
@@ -147,7 +136,23 @@
               <item name="flink-study" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="gaowj" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flink-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flink-study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="gaowj" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flink-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flink-study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="gaowj" type="462c0819:PsiDirectoryNode" />
+              <item name="operation" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -357,7 +362,21 @@
       <option name="project" value="LOCAL" />
       <updated>1559116665068</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add package api">
+      <created>1559120171077</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1559120171077</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add package oper">
+      <created>1559120788876</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1559120788876</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -378,11 +397,11 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36413044" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36343852" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13272922" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -405,7 +424,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="add package api" />
+    <MESSAGE value="add package oper" />
+    <option name="LAST_COMMIT_MESSAGE" value="add package oper" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -447,18 +468,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/gaowj/api/CoGroupDemo.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/gaowj/api/ConnectedStreamsDemo.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        <state relative-caret-position="168">
+          <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/gaowj/api/ConnectedStreamsDemo.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/gaowj/api/CoGroupDemo.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        <state relative-caret-position="240">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/gaowj/operation/MulCountStream.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
