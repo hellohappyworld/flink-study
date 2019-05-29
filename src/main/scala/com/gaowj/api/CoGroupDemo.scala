@@ -7,6 +7,7 @@ import org.apache.flink.api.scala.{ExecutionEnvironment, _}
   * flink coGroup
   * reference https://github.com/mathiaspet/gms/blob/9cab16ced9ee68a8cb2713391f19db45858b16eb/flink-tests/src/test/scala/org/apache/flink/api/scala/operators/CoGroupITCase.scala
   */
+
 object CoGroupDemo {
   def main(args: Array[String]): Unit = {
     val env = ExecutionEnvironment.getExecutionEnvironment
