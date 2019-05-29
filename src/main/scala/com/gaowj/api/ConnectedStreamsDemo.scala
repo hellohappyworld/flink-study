@@ -1,4 +1,4 @@
-package com.gaowj
+package com.gaowj.api
 
 import org.apache.flink.api.scala._
 import org.apache.flink.streaming.api.scala.{ConnectedStreams, DataStream, StreamExecutionEnvironment}
