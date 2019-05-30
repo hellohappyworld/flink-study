@@ -9,11 +9,12 @@ import org.apache.flink.streaming.api.windowing.time.Time
 import org.apache.log4j.Logger
 
 /**
+  * Created on 2019-05-30.
   * ReduceFunction
   * original -> https://github.com/soniclavier/bigdata-notebook/blob/a708de834fd282ba576f15f87a46f3953695a9ad/flink/src/main/scala/com/vishnu/flink/streaming/queryablestate/QuerybleStateStream.scala
   */
 
-object ReduceFunctionDemo {
+object ReduceFunctionDemo_1 {
   val logger: Logger = Logger.getLogger("ReduceFunctionDemo")
 
   case class ClimateLog(country: String, state: String, temperature: Float, humidity: Float)
