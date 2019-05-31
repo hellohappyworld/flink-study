@@ -5,7 +5,7 @@ import org.apache.flink.streaming.api.scala.{ConnectedStreams, DataStream, Strea
 
 /**
   * Created by gaowj on 2019-05-29
-  * ConnectedStreams
+  * ConnectedStreams.
   *
   */
 object ConnectedStreamsDemo {
