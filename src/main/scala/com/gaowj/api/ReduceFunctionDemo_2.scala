@@ -5,7 +5,7 @@ import org.apache.flink.api.common.functions.ReduceFunction
 
 /**
   * Created on 2019-05-30.
-  * ReduceFunction.
+  * ReduceFunction..
   * original -> https://github.com/yunluwen/data_test/blob/9aa7dbc5797508e0487a6bc4bdf2a6e7d697b99d/flink_study/src/main/scala/com/zyh/batch/ReduceFunction001scala.scala#L40
   */
 object ReduceFunctionDemo_2 {
