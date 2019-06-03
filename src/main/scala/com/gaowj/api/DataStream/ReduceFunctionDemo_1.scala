@@ -1,8 +1,6 @@
-package com.gaowj.api
+package com.gaowj.api.DataStream
 
 import org.apache.flink.api.common.functions.ReduceFunction
-import org.apache.flink.api.common.state.ReducingStateDescriptor
-import org.apache.flink.api.common.typeinfo.{TypeHint, TypeInformation}
 import org.apache.flink.api.scala._
 import org.apache.flink.streaming.api.scala.{DataStream, StreamExecutionEnvironment}
 import org.apache.flink.streaming.api.windowing.time.Time

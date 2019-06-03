@@ -1,7 +1,7 @@
-package com.gaowj.api
+package com.gaowj.api.DataStream
 
-import org.apache.flink.api.scala._
 import org.apache.flink.api.common.functions.ReduceFunction
+import org.apache.flink.api.scala._
 
 /**
   * Created on 2019-05-30.

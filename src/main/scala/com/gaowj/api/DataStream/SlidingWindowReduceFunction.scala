@@ -1,16 +1,12 @@
-package com.gaowj.api
-
-import java.util.Properties
+package com.gaowj.api.DataStream
 
 import com.gaowj.util.KafkaConsumerDemo
 import org.apache.flink.api.common.functions.{ReduceFunction, RichMapFunction}
 import org.apache.flink.api.scala._
-import org.apache.flink.api.common.serialization.SimpleStringSchema
 import org.apache.flink.streaming.api.TimeCharacteristic
 import org.apache.flink.streaming.api.scala.{DataStream, StreamExecutionEnvironment}
 import org.apache.flink.streaming.api.windowing.assigners.SlidingProcessingTimeWindows
 import org.apache.flink.streaming.api.windowing.time.Time
-import org.apache.flink.streaming.connectors.kafka.FlinkKafkaConsumer010
 
 /**
   * Created by gaowj on 2019-05-30

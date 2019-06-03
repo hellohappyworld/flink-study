@@ -1,4 +1,4 @@
-package com.gaowj.api
+package com.gaowj.api.DataStream
 
 import org.apache.flink.api.scala.{ExecutionEnvironment, _}
 

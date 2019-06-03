@@ -1,4 +1,4 @@
-package com.gaowj.api
+package com.gaowj.api.DataStream
 
 import com.gaowj.util.KafkaConsumerDemo
 import org.apache.flink.api.common.functions.{FoldFunction, RichMapFunction}
