@@ -41,6 +41,10 @@ object FileSysConnector {
 
     val table: Table = tableEnv.scan("t_friend")
       //      .select("id,name,age")
+      //    3,huang,29
+      //    4,li,30
+      //    1,ming,24
+      //    2,hua,23
       .select("*")
 
     tableEnv.toDataSet[Row](table).print()
