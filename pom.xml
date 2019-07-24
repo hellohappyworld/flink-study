@@ -6,44 +6,34 @@
     <version>1.0-SNAPSHOT</version>
     <inceptionYear>2008</inceptionYear>
     <properties>
-        <scala.version>2.11.12</scala.version>
+        <scala.version>2.11.8</scala.version>
     </properties>
 
-    <repositories>
-        <repository>
-            <id>cloudera</id>
-            <name>Cloudera Repositories</name>
-            <url>https://repository.cloudera.com/artifactory/cloudera-repos</url>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </repository>
-        <repository>
-            <id>scala-tools.org</id>
-            <name>Scala-Tools Maven2 Repository</name>
-            <url>http://scala-tools.org/repo-releases</url>
-        </repository>
-        <repository>
-            <id>maven-hadoop</id>
-            <name>Hadoop Releases</name>
-            <url>https://repository.cloudera.com/content/repositories/releases/</url>
-        </repository>
-    </repositories>
-
-    <pluginRepositories>
-        <pluginRepository>
-            <id>scala-tools.org</id>
-            <name>Scala-Tools Maven2 Repository</name>
-            <url>http://scala-tools.org/repo-releases</url>
-        </pluginRepository>
-        <pluginRepository>
-            <id>cloudera-repos</id>
-            <name>Cloudera Repos</name>
-            <url>https://repository.cloudera.com/artifactory/cloudera-repos/</url>
-        </pluginRepository>
-    </pluginRepositories>
 
     <dependencies>
+        <!--&lt;!&ndash; https://mvnrepository.com/artifact/commons-collections/commons-collections &ndash;&gt;-->
+        <!--<dependency>-->
+        <!--<groupId>commons-collections</groupId>-->
+        <!--<artifactId>commons-collections</artifactId>-->
+        <!--<version>3.2.2</version>-->
+        <!--</dependency>-->
+
+        <!--&lt;!&ndash; https://mvnrepository.com/artifact/com.google.guava/guava &ndash;&gt;-->
+        <!--<dependency>-->
+        <!--<groupId>com.google.guava</groupId>-->
+        <!--<artifactId>guava</artifactId>-->
+        <!--<version>27.1-jre</version>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+        <!--<groupId>com.ifeng.sig2</groupId>-->
+        <!--<artifactId>Sign_20190513</artifactId>-->
+        <!--<version>1.0</version>-->
+        <!--</dependency>-->
+        <dependency>
+            <groupId>com.ifeng.sig20190717</groupId>
+            <artifactId>Sign_20190717</artifactId>
+            <version>1.0</version>
+        </dependency>
         <dependency>
             <groupId>org.scala-lang</groupId>
             <artifactId>scala-library</artifactId>
@@ -53,49 +43,20 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.4</version>
-            <scope>test</scope>
+            <!--<scope>test</scope>-->
         </dependency>
         <dependency>
             <groupId>org.specs</groupId>
             <artifactId>specs</artifactId>
             <version>1.2.5</version>
-            <scope>test</scope>
+            <!--<scope>test</scope>-->
         </dependency>
-
-        <dependency>
-            <groupId>org.apache.flink</groupId>
-            <artifactId>flink-scala_2.11</artifactId>
-            <version>1.6.1</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>xml-apis</groupId>
-                    <artifactId>xml-apis</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.flink</groupId>
-            <artifactId>flink-streaming-scala_2.11</artifactId>
-            <version>1.6.1</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>xml-apis</groupId>
-                    <artifactId>xml-apis</artifactId>
-                </exclusion>
-            </exclusions>
-            <!--<scope>provided</scope>-->
-        </dependency>
-        <dependency>
-            <groupId>org.apache.flink</groupId>
-            <artifactId>flink-connector-kafka-0.10_2.11</artifactId>
-            <version>1.6.1</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>xml-apis</groupId>
-                    <artifactId>xml-apis</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
+        <!--<dependency>-->
+        <!--<groupId>org.apache.flink</groupId>-->
+        <!--<artifactId>flink-core</artifactId>-->
+        <!--<version>1.6.1</version>-->
+        <!--</dependency>-->
+        <!-- https://mvnrepository.com/artifact/org.apache.flink/flink-table -->
         <dependency>
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-table_2.11</artifactId>
@@ -108,10 +69,11 @@
             </exclusions>
             <!--<scope>provided</scope>-->
         </dependency>
+
         <dependency>
             <groupId>org.apache.flink</groupId>
-            <artifactId>flink-connector-filesystem_2.11</artifactId>
-            <version>1.6.1</version>
+            <artifactId>flink-java</artifactId>
+            <version>1.8.0</version>
             <exclusions>
                 <exclusion>
                     <groupId>xml-apis</groupId>
@@ -121,8 +83,87 @@
         </dependency>
         <dependency>
             <groupId>org.apache.flink</groupId>
+            <artifactId>flink-scala_2.11</artifactId>
+            <version>1.8.0</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>xml-apis</groupId>
+                    <artifactId>xml-apis</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.flink</groupId>
+            <artifactId>flink-streaming-scala_2.11</artifactId>
+            <version>1.8.0</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>xml-apis</groupId>
+                    <artifactId>xml-apis</artifactId>
+                </exclusion>
+            </exclusions>
+            <!--<scope>provided</scope>-->
+        </dependency>
+
+        <!--<dependency>-->
+        <!--<groupId>org.apache.flink</groupId>-->
+        <!--<artifactId>flink-streaming-java_2.11</artifactId>-->
+        <!--<version>1.6.1</version>-->
+        <!--<exclusions>-->
+        <!--<exclusion>-->
+        <!--<groupId>xml-apis</groupId>-->
+        <!--<artifactId>xml-apis</artifactId>-->
+        <!--</exclusion>-->
+        <!--</exclusions>-->
+        <!--&lt;!&ndash; <scope>provided</scope>&ndash;&gt;-->
+        <!--</dependency>-->
+
+        <!-- https://mvnrepository.com/artifact/org.apache.flink/flink-streaming-java -->
+        <dependency>
+            <groupId>org.apache.flink</groupId>
+            <artifactId>flink-streaming-java_2.11</artifactId>
+            <version>1.8.0</version>
+            <!--<scope>provided</scope>-->
+        </dependency>
+
+
+        <!--<dependency>-->
+        <!--<groupId>org.apache.flink</groupId>-->
+        <!--<artifactId>flink-clients_2.11</artifactId>-->
+        <!--<version>1.6.1</version>-->
+        <!--<scope>provided</scope>-->
+        <!--</dependency>-->
+
+        <dependency>
+            <groupId>org.apache.flink</groupId>
+            <artifactId>flink-connector-kafka-0.10_2.11</artifactId>
+            <version>1.8.0</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>xml-apis</groupId>
+                    <artifactId>xml-apis</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+
+        <dependency>
+            <groupId>org.apache.flink</groupId>
+            <artifactId>flink-connector-filesystem_2.11</artifactId>
+            <version>1.8.0</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>xml-apis</groupId>
+                    <artifactId>xml-apis</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.flink</groupId>
             <artifactId>flink-hadoop-compatibility_2.11</artifactId>
-            <version>1.6.1</version>
+            <version>1.8.0</version>
             <exclusions>
                 <exclusion>
                     <groupId>xml-apis</groupId>
@@ -131,10 +172,24 @@
             </exclusions>
             <!--<scope>test</scope>-->
         </dependency>
+
+
+        <!--<dependency>-->
+        <!--<groupId>org.apache.flink</groupId>-->
+        <!--<artifactId>flink-core</artifactId>-->
+        <!--<version>1.6.1</version>-->
+        <!--</dependency>-->
+
+        <!--<dependency>-->
+        <!--<groupId>com.google.protobuf</groupId>-->
+        <!--<artifactId>protobuf-java</artifactId>-->
+        <!--<version>2.5.0</version>-->
+        <!--</dependency>-->
+
         <dependency>
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-hadoop-fs</artifactId>
-            <version>1.6.1</version>
+            <version>1.8.0</version>
             <exclusions>
                 <exclusion>
                     <groupId>xml-apis</groupId>
@@ -142,6 +197,7 @@
                 </exclusion>
             </exclusions>
         </dependency>
+
         <!-- https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-common -->
         <dependency>
             <groupId>org.apache.hadoop</groupId>
@@ -167,70 +223,227 @@
                 </exclusion>
             </exclusions>
         </dependency>
+
         <dependency>
             <groupId>org.apache.flink</groupId>
-            <artifactId>flink-json</artifactId>
-            <version>1.6.1</version>
+            <artifactId>flink-statebackend-rocksdb_2.11</artifactId>
+            <version>1.8.0</version>
             <exclusions>
                 <exclusion>
                     <groupId>xml-apis</groupId>
                     <artifactId>xml-apis</artifactId>
                 </exclusion>
             </exclusions>
+            <!--<scope>test</scope>-->
         </dependency>
+
+        <!--<dependency>-->
+        <!--<groupId>org.apache.flink</groupId>-->
+        <!--<artifactId>flink-connector-kafka-0.10_2.11</artifactId>-->
+        <!--<version>1.6.1</version>-->
+        <!--<exclusions>-->
+        <!--<exclusion>-->
+        <!--<groupId>xml-apis</groupId>-->
+        <!--<artifactId>xml-apis</artifactId>-->
+        <!--</exclusion>-->
+        <!--</exclusions>-->
+        <!--</dependency>-->
 
     </dependencies>
 
+    <repositories>
+        <repository>
+            <id>cloudera</id>
+            <name>Cloudera Repositories</name>
+            <url>https://repository.cloudera.com/artifactory/cloudera-repos</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>scala-tools.org</id>
+            <name>Scala-tools Maven2 Repository</name>
+            <url>http://scala-tools.org/repo-releases</url>
+        </repository>
+        <repository>
+            <id>maven-hadoop</id>
+            <name>Hadoop Releases</name>
+            <url>https://repository.cloudera.com/content/repositories/releases/</url>
+        </repository>
+    </repositories>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>scala-tools.org</id>
+            <name>Scala-tools Maven2 Repository</name>
+            <url>http://scala-tools.org/repo-releases</url>
+        </pluginRepository>
+        <pluginRepository>
+            <id>cloudera-repos</id>
+            <name>Cloudera Repos</name>
+            <url>https://repository.cloudera.com/artifactory/cloudera-repos/</url>
+        </pluginRepository>
+    </pluginRepositories>
+
+    <!-- 声明构建信息 -->
     <build>
+        <!--scala待编译的文件目录-->
         <sourceDirectory>src/main/scala</sourceDirectory>
-        <testSourceDirectory>src/test/scala</testSourceDirectory>
+        <testSourceDirectory>src/main/scala</testSourceDirectory>
         <plugins>
             <plugin>
-                <groupId>org.scala-tools</groupId>
-                <artifactId>maven-scala-plugin</artifactId>
+                <groupId>net.alchim31.maven</groupId>
+                <artifactId>scala-maven-plugin</artifactId>
+                <version>3.2.2</version>
                 <executions>
                     <execution>
                         <goals>
                             <goal>compile</goal>
                             <goal>testCompile</goal>
                         </goals>
+                        <configuration>
+                            <args>
+                                <!--<arg>-make:transitive</arg>--><!--scala2.11 netbean不支持这个参数-->
+                                <arg>-dependencyfile</arg>
+                                <arg>${project.build.directory}/.scala_dependencies</arg>
+                            </args>
+                        </configuration>
                     </execution>
                 </executions>
-                <configuration>
-                    <scalaVersion>${scala.version}</scalaVersion>
-                    <args>
-                        <arg>-target:jvm-1.5</arg>
-                    </args>
-                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <version>2.4.3</version>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                        <configuration>
+                            <filters>
+                                <filter>
+                                    <artifact>*:*</artifact>
+                                    <excludes>
+                                        <exclude>META-INF/*.SF</exclude>
+                                        <exclude>META-INF/*.DSA</exclude>
+                                        <exclude>META-INF/*.RSA</exclude>
+                                    </excludes>
+                                </filter>
+                            </filters>
+                            <transformers>
+                                <transformer
+                                        implementation="org.apache.maven.plugins.shade.resource.AppendingTransformer">
+                                    <resource>reference.conf</resource>
+                                </transformer>
+                                <transformer
+                                        implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                                    <mainClass>com.gaowj.api.DataStream.BucketingSinkDemo</mainClass> <!--main方法-->
+                                </transformer>
+                            </transformers>
+                        </configuration>
+                    </execution>
+                </executions>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-eclipse-plugin</artifactId>
+                <artifactId>maven-surefire-plugin</artifactId>
                 <configuration>
-                    <downloadSources>true</downloadSources>
-                    <buildcommands>
-                        <buildcommand>ch.epfl.lamp.sdt.core.scalabuilder</buildcommand>
-                    </buildcommands>
-                    <additionalProjectnatures>
-                        <projectnature>ch.epfl.lamp.sdt.core.scalanature</projectnature>
-                    </additionalProjectnatures>
-                    <classpathContainers>
-                        <classpathContainer>org.eclipse.jdt.launching.JRE_CONTAINER</classpathContainer>
-                        <classpathContainer>ch.epfl.lamp.sdt.launching.SCALA_CONTAINER</classpathContainer>
-                    </classpathContainers>
+                    <forkMode>pertest</forkMode>
+                    <argLine>-Xms1024m -Xmx1024m</argLine>
+                    <testFailureIgnore>false</testFailureIgnore>
                 </configuration>
             </plugin>
         </plugins>
+        <!-- 声明并引入子项目共有的插件【插件就是附着到Maven各个声明周期的具体实现】 -->
+
+        <!-- <plugins>
+             <plugin>
+                 <groupId>org.apache.maven.plugins</groupId>
+                 <artifactId>maven-compiler-plugin</artifactId>
+                 <version>3.6.1</version>
+                 &lt;!&ndash; 所有的编译都依照JDK1.8来搞 &ndash;&gt;
+                 <configuration>
+                     <source>1.8</source>
+                     <target>1.8</target>
+                 </configuration>
+             </plugin>
+         </plugins>-->
+        <!-- 仅声明子项目共有的插件，如果子项目需要此插件，那么子项目需要声明 -->
+        <pluginManagement>
+            <plugins>
+                <!-- 该插件用于将Scala代码编译成class文件 -->
+                <plugin>
+                    <groupId>net.alchim31.maven</groupId>
+                    <artifactId>scala-maven-plugin</artifactId>
+                    <version>3.2.2</version>
+                    <executions>
+                        <execution>
+                            <!-- 声明绑定到maven的compile阶段 -->
+                            <goals>
+                                <goal>compile</goal>
+                                <goal>testCompile</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                </plugin>
+
+                <!-- 用于项目的打包插件 -->
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-assembly-plugin</artifactId>
+                    <version>3.0.0</version>
+                    <executions>
+                        <execution>
+                            <id>make-assembly</id>
+                            <phase>package</phase>
+                            <goals>
+                                <goal>single</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                </plugin>
+                <!--</plugins>-->
+                <!--</pluginManagement>-->
+                <!--&lt;!&ndash;<pluginManagement>-->
+                <!--<plugins>-->
+                <!-- 该插件用于将Scala代码编译成class文件 -->
+                <plugin>
+                    <groupId>net.alchim31.maven</groupId>
+                    <artifactId>scala-maven-plugin</artifactId>
+                    <version>3.2.2</version>
+                    <executions>
+                        <execution>
+                            <!-- 声明绑定到maven的compile阶段 -->
+                            <goals>
+                                <goal>compile</goal>
+                                <goal>testCompile</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                </plugin>
+
+                <!-- 用于项目的打包插件 -->
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-assembly-plugin</artifactId>
+                    <version>3.0.0</version>
+                    <executions>
+                        <execution>
+                            <id>make-assembly</id>
+                            <phase>package</phase>
+                            <goals>
+                                <goal>single</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                </plugin>
+
+            </plugins>
+        </pluginManagement>
     </build>
-    <reporting>
-        <plugins>
-            <plugin>
-                <groupId>org.scala-tools</groupId>
-                <artifactId>maven-scala-plugin</artifactId>
-                <configuration>
-                    <scalaVersion>${scala.version}</scalaVersion>
-                </configuration>
-            </plugin>
-        </plugins>
-    </reporting>
+
+
 </project>
