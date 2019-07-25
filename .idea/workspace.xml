@@ -2,50 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3108be05-f7e7-43ef-83d8-446d6e7ffba7" name="Default" comment="Setting a custom global configuration">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_data_artisans_frocksdbjni_5_17_2_artisans_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_ifeng_sig20190717_Sign_20190717_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_metrics_core_1_8_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_runtime_2_11_1_8_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_shaded_asm_6_6_2_1_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_statebackend_rocksdb_2_11_1_8_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/gaowj/api/DataStream/BucketingSinkDemo.scala" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/gaowj/api/DataStream/StreamingFileSinkDemo.scala" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/gaowj/util/ActiveNNAdd.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/gaowj/util/scalaTest.scala" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_twitter_chill_2_11_0_7_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_twitter_chill_2_11_0_7_6.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_twitter_chill_java_0_7_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_twitter_chill_java_0_7_6.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_5.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_annotations_1_6_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_annotations_1_8_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_clients_2_11_1_6_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_clients_2_11_1_8_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_connector_filesystem_2_11_1_6_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_connector_filesystem_2_11_1_8_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_connector_kafka_0_10_2_11_1_6_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_connector_kafka_0_10_2_11_1_8_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_connector_kafka_0_9_2_11_1_6_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_connector_kafka_0_9_2_11_1_8_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_connector_kafka_base_2_11_1_6_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_connector_kafka_base_2_11_1_8_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_core_1_6_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_core_1_8_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_hadoop_compatibility_2_11_1_6_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_hadoop_compatibility_2_11_1_8_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_hadoop_fs_1_6_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_hadoop_fs_1_8_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_java_1_6_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_java_1_8_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_json_1_6_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_metrics_core_1_6_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_optimizer_2_11_1_6_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_optimizer_2_11_1_8_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_queryable_state_client_java_2_11_1_6_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_queryable_state_client_java_2_11_1_8_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_runtime_2_11_1_6_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_scala_2_11_1_6_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_scala_2_11_1_8_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_shaded_asm_5_0_4_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_shaded_asm_5_0_4_6_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_shaded_guava_18_0_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_shaded_guava_18_0_6_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_shaded_jackson_2_7_9_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_shaded_jackson_2_7_9_6_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_shaded_netty_4_1_24_Final_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_shaded_netty_4_1_32_Final_6_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_streaming_java_2_11_1_6_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_streaming_java_2_11_1_8_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_streaming_scala_2_11_1_6_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_streaming_scala_2_11_1_8_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_clapper_grizzled_slf4j_2_11_1_0_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_clapper_grizzled_slf4j_2_11_1_3_2.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_library_2_11_12.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_library_2_11_8.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_15.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_2_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_4.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/gaowj/api/DataSet/readFileDemo.scala" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/gaowj/util/FindHdfsPaths.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/gaowj/util/javaTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/resources/readFileDemo/1" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/resources/readFileDemo/2" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/flink-study.iml" afterPath="$PROJECT_DIR$/flink-study.iml" />
       <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/gaowj/api/DataStream/BucketingSinkDemo.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/gaowj/api/DataStream/BucketingSinkDemo.scala" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/gaowj/util/KafkaConsumerDemo.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/gaowj/util/KafkaConsumerDemo.scala" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/gaowj/util/scalaTest.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/gaowj/util/scalaTest.scala" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -56,31 +23,31 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="flink-study" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="StreamingFileSinkDemo.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/gaowj/api/DataStream/StreamingFileSinkDemo.scala">
+      <file leaf-file-name="readFileDemo.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/gaowj/api/DataSet/readFileDemo.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+            <state relative-caret-position="543">
+              <caret line="43" column="21" lean-forward="false" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
               <folding>
-                <element signature="e#34#67#0" expanded="true" />
+                <element signature="e#31#47#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataStream.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-scala_2.11/1.8.0/flink-streaming-scala_2.11-1.8.0.jar!/org/apache/flink/streaming/api/scala/DataStream.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="120" column="28" lean-forward="true" selection-start-line="120" selection-start-column="28" selection-end-line="120" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -91,6 +58,13 @@
       <find>read</find>
       <find>setPart</find>
       <find>table</find>
+      <find>hadoop</find>
+      <find>java</find>
+      <find>hadoop-comm</find>
+      <find>properties</find>
+      <find>flink-core</find>
+      <find>existFiles</find>
+      <find>CONSTANTS</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -105,12 +79,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/com/ifeng/FlatMap.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/ifeng/SimpleDemo.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/ifeng/ExampleCountWindowAverage.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/ifeng/CoGroupDemo.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/gaowj/ConnectedStreamsDemo.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/gaowj/CoGroupDemo.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/gaowj/operation/MulCountStream.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/gaowj/api/ReduceFunctionDemo.scala" />
         <option value="$PROJECT_DIR$/src/resources/flink_media_f" />
@@ -145,12 +113,23 @@
         <option value="$PROJECT_DIR$/src/resources/filecsv1" />
         <option value="$PROJECT_DIR$/src/main/scala/com/gaowj/api/TableSQL/FileSysConnector.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/gaowj/util/KafkaConsumerDemo.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/gaowj/util/scalaTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/gaowj/util/scriptFile.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/gaowj/util/ActiveNNAdd.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/gaowj/api/DataStream/BucketingSinkDemo.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/gaowj/api/DataStream/StreamingFileSinkDemo.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/gaowj/api/DataStream/BucketingSinkDemo.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/gaowj/api/DataStream/HadoopOutputFormatDemo.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/gaowj/api/DataStream/FlinkHdfsZip.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/resources/readFileDemo/1" />
+        <option value="$PROJECT_DIR$/src/resources/readFileDemo/2" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/gaowj/util/HDFSUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/gaowj/util/CONSTANTS.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/gaowj/util/ActiveNNAdd.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/gaowj/util/javaTest.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/gaowj/util/scalaTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/gaowj/api/DataStream/readFileDemo.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/gaowj/api/DataSet/readFileDemo.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/gaowj/api/DataStream/ConfigurationDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/gaowj/util/FindHdfsPaths.java" />
       </list>
     </option>
   </component>
@@ -201,8 +180,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -264,6 +244,17 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="gaowj" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="DataSet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flink-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flink-study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="gaowj" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
               <item name="DataStream" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -280,8 +271,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -292,18 +282,18 @@
     <property name="project.structure.side.proportion" value="0.23880596" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workStation\ProjectStation\flink-study\src\resources\media_f\dir" />
+      <recent name="D:\workStation\ProjectStation\flink-study\src\resources\media_f" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gaowj.util" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\workStation\ProjectStation\flink-study\src\main\scala\com\gaowj\util" />
       <recent name="D:\workStation\ProjectStation\flink-study\src\resources\media_f" />
       <recent name="D:\workStation\ProjectStation\flink-study\src\resources\media_f\dir" />
       <recent name="D:\workStation\ProjectStation\flink-study\src\resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.gaowj.util" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\workStation\ProjectStation\flink-study\src\resources\media_f\dir" />
-      <recent name="D:\workStation\ProjectStation\flink-study\src\resources\media_f" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -318,7 +308,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StreamingFileSinkDemo">
+  <component name="RunManager" selected="Application.readFileDemo">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -326,14 +316,14 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="BucketingSinkDemo" type="Application" factoryName="Application" temporary="true">
+    <configuration name="ActiveNNAdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.gaowj.api.DataStream.*" />
+          <option name="PATTERN" value="com.gaowj.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.gaowj.api.DataStream.BucketingSinkDemo" />
+      <option name="MAIN_CLASS_NAME" value="com.gaowj.util.ActiveNNAdd" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -345,52 +335,14 @@
       <module name="flink-study" />
       <envs />
     </configuration>
-    <configuration name="CoGroupDemo" type="Application" factoryName="Application" temporary="true">
+    <configuration name="FindHdfsPaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.gaowj.api.DataSet.*" />
+          <option name="PATTERN" value="com.gaowj.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.gaowj.api.DataSet.CoGroupDemo" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="flink-study" />
-      <envs />
-    </configuration>
-    <configuration name="FileSysConnector" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.gaowj.api.TableSQL.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.gaowj.api.TableSQL.FileSysConnector" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="flink-study" />
-      <envs />
-    </configuration>
-    <configuration name="StreamingFileSinkDemo" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.gaowj.api.DataStream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.gaowj.api.DataStream.StreamingFileSinkDemo" />
+      <option name="MAIN_CLASS_NAME" value="com.gaowj.util.FindHdfsPaths" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -414,6 +366,44 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
+      <envs />
+    </configuration>
+    <configuration name="javaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.gaowj.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.gaowj.util.javaTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="flink-study" />
+      <envs />
+    </configuration>
+    <configuration name="readFileDemo" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.gaowj.api.DataSet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.gaowj.api.DataStream.readFileDemo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="flink-study" />
       <envs />
     </configuration>
     <configuration name="scalaTest" type="Application" factoryName="Application" temporary="true">
@@ -496,19 +486,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.CoGroupDemo" />
-      <item index="1" class="java.lang.String" itemvalue="Application.FileSysConnector" />
-      <item index="2" class="java.lang.String" itemvalue="Application.StreamingFileSinkDemo" />
-      <item index="3" class="java.lang.String" itemvalue="Application.BucketingSinkDemo" />
-      <item index="4" class="java.lang.String" itemvalue="Application.scalaTest" />
+      <item index="0" class="java.lang.String" itemvalue="Application.scalaTest" />
+      <item index="1" class="java.lang.String" itemvalue="Application.readFileDemo" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ActiveNNAdd" />
+      <item index="3" class="java.lang.String" itemvalue="Application.javaTest" />
+      <item index="4" class="java.lang.String" itemvalue="Application.FindHdfsPaths" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.StreamingFileSinkDemo" />
-        <item index="1" class="java.lang.String" itemvalue="Application.BucketingSinkDemo" />
-        <item index="2" class="java.lang.String" itemvalue="Application.scalaTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.FileSysConnector" />
-        <item index="4" class="java.lang.String" itemvalue="Application.CoGroupDemo" />
+        <item index="0" class="java.lang.String" itemvalue="Application.readFileDemo" />
+        <item index="1" class="java.lang.String" itemvalue="Application.FindHdfsPaths" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ActiveNNAdd" />
+        <item index="3" class="java.lang.String" itemvalue="Application.scalaTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.javaTest" />
       </list>
     </recent_temporary>
   </component>
@@ -706,7 +696,28 @@
       <option name="project" value="LOCAL" />
       <updated>1563524953208</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="新三元桥FLink集群正常运行">
+      <created>1563936640199</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1563936640199</updated>
+    </task>
+    <task id="LOCAL-00027" summary="2019-07-25">
+      <created>1564045623323</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1564045623323</updated>
+    </task>
+    <task id="LOCAL-00028" summary="20190725">
+      <created>1564045681471</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1564045681471</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TodoView">
@@ -729,31 +740,30 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4055866" sideWeight="0.5042644" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47932962" sideWeight="0.49573562" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3385475" sideWeight="0.49573562" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.4978678" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21801706" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28624734" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22228146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23560767" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="first commit" />
     <MESSAGE value="add package api" />
     <MESSAGE value="add package oper" />
     <MESSAGE value="add test" />
@@ -776,160 +786,21 @@
     <MESSAGE value="GroupReduce on sorted groups" />
     <MESSAGE value="CoGroup" />
     <MESSAGE value="TableEnvironment/connect" />
-    <option name="LAST_COMMIT_MESSAGE" value="TableEnvironment/connect" />
+    <MESSAGE value="新三元桥FLink集群正常运行" />
+    <MESSAGE value="2019-07-25" />
+    <MESSAGE value="20190725" />
+    <option name="LAST_COMMIT_MESSAGE" value="20190725" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="3" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/resources/media_f/dir/file2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/media_f/file3">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/gaowj/api/DataSet/GroupCombineDemo.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/gaowj/api/DataSet/FlatJoinFunctionDemo.scala" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-scala_2.11/1.6.1/flink-scala_2.11-1.6.1.jar!/org/apache/flink/api/scala/ExecutionEnvironment.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/lang/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="1335" column="0" lean-forward="false" selection-start-line="1335" selection-start-column="0" selection-end-line="1335" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="1610" column="0" lean-forward="false" selection-start-line="1610" selection-start-column="0" selection-end-line="1610" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/jre/lib/rt.jar!/sun/misc/Launcher.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="176" column="0" lean-forward="false" selection-start-line="176" selection-start-column="0" selection-end-line="176" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/lang/ClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="356" column="0" lean-forward="false" selection-start-line="356" selection-start-column="0" selection-end-line="356" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12.jar!/scala/reflect/ClassTag.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="150" column="0" lean-forward="false" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/flink_media_f">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-239">
-          <caret line="1605" column="242" lean-forward="false" selection-start-line="1605" selection-start-column="3" selection-end-line="1605" selection-end-column="242" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/filecsv1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/gaowj/api/DataSet/CoGroupDemo.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-811">
-          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/gaowj/api/DataSet/ConfigurationDemo.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/gaowj/api/DataSet/EnumerationDemo.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/gaowj/api/DataSet/GlobalConfigurationDemo.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/gaowj/api/DataSet/GroupReduceSortedGroupDemo.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/gaowj/api/DataSet/IterrationDemo.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="16" column="29" lean-forward="false" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/gaowj/api/DataStream/AggWithProcessDemo.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="16" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/gaowj/api/DataStream/CoGroupDemo.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="18" column="60" lean-forward="false" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/gaowj/api/DataStream/ConnectedStreamsDemo.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-626">
-          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/gaowj/api/DataStream/ProcessWindowFunctionDemo.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="305">
@@ -986,13 +857,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/gaowj/operation/MulCountStream.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.6.1/flink-streaming-java_2.11-1.6.1.jar!/org/apache/flink/streaming/api/functions/sink/filesystem/bucketassigners/BasePathBucketAssigner.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
@@ -1035,13 +899,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.6.2/hadoop-common-2.6.2.jar!/org/apache/hadoop/fs/Path.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4080">
-          <caret line="197" column="18" lean-forward="false" selection-start-line="197" selection-start-column="18" selection-end-line="197" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/text/Format.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2856">
@@ -1057,17 +914,894 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/gaowj/util/scriptFile.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/gaowj/util/ActiveNNAdd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="56" lean-forward="false" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/gaowj/api/TableSQL/FileSysConnector.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
           <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-scala_2.11/1.8.0/flink-streaming-scala_2.11-1.8.0.jar!/org/apache/flink/streaming/api/scala/StreamExecutionEnvironment.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.8.0/flink-streaming-java_2.11-1.8.0.jar!/org/apache/flink/streaming/api/functions/sink/filesystem/StreamingFileSink.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="34" column="15" lean-forward="true" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-scala_2.11/1.8.0/flink-streaming-scala_2.11-1.8.0.jar!/org/apache/flink/streaming/api/scala/DataStream.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="120" column="28" lean-forward="true" selection-start-line="120" selection-start-column="28" selection-end-line="120" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/gaowj/api/DataStream/StreamingFileSinkDemo.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-connector-filesystem_2.11/1.8.0/flink-connector-filesystem_2.11-1.8.0.jar!/org/apache/flink/streaming/connectors/fs/bucketing/BucketingSink.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="104" column="18" lean-forward="false" selection-start-line="104" selection-start-column="18" selection-end-line="104" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.6.2/hadoop-common-2.6.2.jar!/org/apache/hadoop/io/compress/GzipCodec.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="178" column="34" lean-forward="false" selection-start-line="178" selection-start-column="24" selection-end-line="178" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appsta/_part-0-0.in-progress">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/readFileDemo/1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/readFileDemo/2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/media_f/dir/file1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/media_f/dir/file2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/media_f/file3">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-core/1.8.0/flink-core-1.8.0.jar!/org/apache/flink/api/common/io/FileInputFormat.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="178" column="0" lean-forward="false" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
+          <folding>
+            <marker date="1560130643892" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1560130643892" expanded="false" signature="154:1358" ph="..." />
+            <marker date="1560130643892" expanded="true" signature="2080:2098" ph="/**...*/" />
+            <marker date="1560130643892" expanded="true" signature="2645:3063" ph="{...}" />
+            <marker date="1560130643892" expanded="true" signature="2655:2659" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="2737:2738" ph="" />
+            <marker date="1560130643892" expanded="true" signature="2745:2746" ph="" />
+            <marker date="1560130643892" expanded="true" signature="2825:2829" ph="$" />
+            <marker date="1560130643892" expanded="true" signature="2831:2835" ph="" />
+            <marker date="1560130643892" expanded="true" signature="2860:2864" ph="${" />
+            <marker date="1560130643892" expanded="true" signature="2865:2866" ph="}&quot;)" />
+            <marker date="1560130643892" expanded="true" signature="2928:2929" ph="" />
+            <marker date="1560130643892" expanded="true" signature="2937:2938" ph="" />
+            <marker date="1560130643892" expanded="true" signature="3131:3926" ph="{...}" />
+            <marker date="1560130643892" expanded="true" signature="3141:3172" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="3192:3225" ph="[" />
+            <marker date="1560130643892" expanded="true" signature="3259:3272" ph="instance" />
+            <marker date="1560130643892" expanded="true" signature="3305:3318" ph="instance" />
+            <marker date="1560130643892" expanded="true" signature="3344:3357" ph="instance" />
+            <marker date="1560130643892" expanded="true" signature="3380:3393" ph="instance" />
+            <marker date="1560130643892" expanded="true" signature="3393:3394" ph="]" />
+            <marker date="1560130643892" expanded="true" signature="3404:3432" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="3466:3469" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="3515:3518" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="3564:3593" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="3639:3647" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="3674:3699" ph="commonFileExtensions" />
+            <marker date="1560130643892" expanded="true" signature="3765:3771" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="3788:3796" ph="" />
+            <marker date="1560130643892" expanded="true" signature="4047:4384" ph="{...}" />
+            <marker date="1560130643892" expanded="true" signature="4057:4060" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="4172:4173" ph="" />
+            <marker date="1560130643892" expanded="true" signature="4240:4241" ph="" />
+            <marker date="1560130643892" expanded="true" signature="4269:4336" ph="&quot;Overwriting an existing decompression algorithm for &quot;{}&quot; files.&quot;" />
+            <marker date="1560130643892" expanded="true" signature="4489:4713" ph="{...}" />
+            <marker date="1560130643892" expanded="true" signature="4499:4502" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="4618:4646" ph="" />
+            <marker date="1560130643892" expanded="true" signature="4677:4682" ph="[" />
+            <marker date="1560130643892" expanded="true" signature="4695:4696" ph="]" />
+            <marker date="1560130643892" expanded="true" signature="4781:4975" ph="{...}" />
+            <marker date="1560130643892" expanded="true" signature="4837:4840" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="4937:4948" ph="[" />
+            <marker date="1560130643892" expanded="true" signature="4967:4968" ph=":]" />
+            <marker date="1560130643892" expanded="true" signature="5006:5196" ph="{...}" />
+            <marker date="1560130643892" expanded="true" signature="5243:5516" ph="{...}" />
+            <marker date="1560130643892" expanded="true" signature="5439:5440" ph="" />
+            <marker date="1560130643892" expanded="true" signature="5456:5457" ph="" />
+            <marker date="1560130643892" expanded="true" signature="5477:5489" ph="filePath = " />
+            <marker date="1560130643892" expanded="true" signature="5497:5498" ph="" />
+            <marker date="1560130643892" expanded="true" signature="5522:5540" ph="/**...*/" />
+            <marker date="1560130643892" expanded="true" signature="5587:6114" ph="{...}" />
+            <marker date="1560130643892" expanded="true" signature="5600:5601" ph="" />
+            <marker date="1560130643892" expanded="true" signature="5626:5627" ph="" />
+            <marker date="1560130643892" expanded="true" signature="5645:5646" ph="" />
+            <marker date="1560130643892" expanded="true" signature="5698:5699" ph="" />
+            <marker date="1560130643892" expanded="true" signature="5721:5722" ph="" />
+            <marker date="1560130643892" expanded="true" signature="5748:5749" ph="" />
+            <marker date="1560130643892" expanded="true" signature="6149:6382" ph="{...}" />
+            <marker date="1560130643892" expanded="true" signature="6162:6163" ph="" />
+            <marker date="1560130643892" expanded="true" signature="6188:6189" ph="" />
+            <marker date="1560130643892" expanded="true" signature="6340:6351" ph="[" />
+            <marker date="1560130643892" expanded="true" signature="6364:6365" ph="]" />
+            <marker date="1560130643892" expanded="true" signature="6429:6915" ph="{...}" />
+            <marker date="1560130643892" expanded="true" signature="6442:6443" ph="" />
+            <marker date="1560130643892" expanded="true" signature="6459:6460" ph="" />
+            <marker date="1560130643892" expanded="true" signature="6558:6559" ph="" />
+            <marker date="1560130643892" expanded="true" signature="6568:6577" ph="empty" />
+            <marker date="1560130643892" expanded="true" signature="6577:6578" ph="" />
+            <marker date="1560130643892" expanded="true" signature="6598:6610" ph="filePath = " />
+            <marker date="1560130643892" expanded="true" signature="6620:6621" ph="" />
+            <marker date="1560130643892" expanded="true" signature="6679:6691" ph="filePath = " />
+            <marker date="1560130643892" expanded="true" signature="6709:6710" ph="" />
+            <marker date="1560130643892" expanded="true" signature="6732:6733" ph="" />
+            <marker date="1560130643892" expanded="true" signature="6754:6755" ph="" />
+            <marker date="1560130643892" expanded="true" signature="6862:6866" ph="${" />
+            <marker date="1560130643892" expanded="true" signature="6871:6883" ph="message" />
+            <marker date="1560130643892" expanded="true" signature="6883:6884" ph="}&quot;)" />
+            <marker date="1560130643892" expanded="true" signature="6960:7146" ph="{...}" />
+            <marker date="1560130643892" expanded="true" signature="6973:6974" ph="" />
+            <marker date="1560130643892" expanded="true" signature="6990:6991" ph="" />
+            <marker date="1560130643892" expanded="true" signature="7107:7120" ph="filePaths = " />
+            <marker date="1560130643892" expanded="true" signature="7128:7129" ph="" />
+            <marker date="1560130643892" expanded="true" signature="7198:7397" ph="{...}" />
+            <marker date="1560130643892" expanded="true" signature="7208:7214" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="7264:7267" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="7371:7384" ph="filePaths = " />
+            <marker date="1560130643892" expanded="true" signature="7389:7390" ph="" />
+            <marker date="1560130643892" expanded="true" signature="7447:7998" ph="{...}" />
+            <marker date="1560130643892" expanded="true" signature="7460:7461" ph="" />
+            <marker date="1560130643892" expanded="true" signature="7511:7512" ph="" />
+            <marker date="1560130643892" expanded="true" signature="7647:7648" ph="" />
+            <marker date="1560130643892" expanded="true" signature="7668:7669" ph="" />
+            <marker date="1560130643892" expanded="true" signature="7797:7798" ph="" />
+            <marker date="1560130643892" expanded="true" signature="7819:7820" ph="" />
+            <marker date="1560130643892" expanded="false" signature="8033:8044" ph=" { " />
+            <marker date="1560130643892" expanded="false" signature="8069:8075" ph=" }" />
+            <marker date="1560130643892" expanded="true" signature="8128:8335" ph="{...}" />
+            <marker date="1560130643892" expanded="true" signature="8141:8142" ph="" />
+            <marker date="1560130643892" expanded="true" signature="8159:8160" ph="" />
+            <marker date="1560130643892" expanded="false" signature="8366:8377" ph=" { " />
+            <marker date="1560130643892" expanded="false" signature="8399:8405" ph=" }" />
+            <marker date="1560130643892" expanded="true" signature="8451:8693" ph="{...}" />
+            <marker date="1560130643892" expanded="true" signature="8464:8465" ph="" />
+            <marker date="1560130643892" expanded="true" signature="8498:8499" ph="" />
+            <marker date="1560130643892" expanded="false" signature="8727:8738" ph=" { " />
+            <marker date="1560130643892" expanded="false" signature="8762:8768" ph=" }" />
+            <marker date="1560130643892" expanded="true" signature="8819:9060" ph="{...}" />
+            <marker date="1560130643892" expanded="true" signature="8832:8833" ph="" />
+            <marker date="1560130643892" expanded="true" signature="8849:8850" ph="" />
+            <marker date="1560130643892" expanded="false" signature="9118:9129" ph=" { " />
+            <marker date="1560130643892" expanded="false" signature="9164:9170" ph=" }" />
+            <marker date="1560130643892" expanded="false" signature="9217:9228" ph=" { " />
+            <marker date="1560130643892" expanded="false" signature="9261:9267" ph=" }" />
+            <marker date="1560130643892" expanded="false" signature="9300:9311" ph=" { " />
+            <marker date="1560130643892" expanded="false" signature="9334:9340" ph=" }" />
+            <marker date="1560130643892" expanded="false" signature="9374:9385" ph=" { " />
+            <marker date="1560130643892" expanded="false" signature="9409:9415" ph=" }" />
+            <marker date="1560130643892" expanded="true" signature="9476:9602" ph="{...}" />
+            <marker date="1560130643892" expanded="true" signature="9505:9521" ph="" />
+            <marker date="1560130643892" expanded="true" signature="9656:10167" ph="{...}" />
+            <marker date="1560130643892" expanded="true" signature="9669:9670" ph="" />
+            <marker date="1560130643892" expanded="true" signature="9675:9689" ph="filePaths" />
+            <marker date="1560130643892" expanded="true" signature="9701:9702" ph="" />
+            <marker date="1560130643892" expanded="true" signature="9717:9723" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="9775:9783" ph="" />
+            <marker date="1560130643892" expanded="true" signature="9802:9804" ph="assert" />
+            <marker date="1560130643892" expanded="true" signature="9805:9806" ph="" />
+            <marker date="1560130643892" expanded="true" signature="9815:9817" ph="!=" />
+            <marker date="1560130643892" expanded="true" signature="9822:9839" ph="" />
+            <marker date="1560130643892" expanded="true" signature="9840:9841" ph=":" />
+            <marker date="1560130643892" expanded="true" signature="9842:9877" ph="" />
+            <marker date="1560130643892" expanded="true" signature="9940:9956" ph="" />
+            <marker date="1560130643892" expanded="true" signature="9975:9987" ph="filePath = " />
+            <marker date="1560130643892" expanded="true" signature="9995:9996" ph="" />
+            <marker date="1560130643892" expanded="true" signature="10020:10021" ph="" />
+            <marker date="1560130643892" expanded="true" signature="10047:10048" ph="" />
+            <marker date="1560130643892" expanded="true" signature="10276:11131" ph="{...}" />
+            <marker date="1560130643892" expanded="true" signature="10286:10320" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="10399:10435" ph="" />
+            <marker date="1560130643892" expanded="true" signature="10529:10543" ph="filePaths" />
+            <marker date="1560130643892" expanded="true" signature="10564:10578" ph="filePaths" />
+            <marker date="1560130643892" expanded="true" signature="10605:10606" ph="" />
+            <marker date="1560130643892" expanded="true" signature="10622:10623" ph="" />
+            <marker date="1560130643892" expanded="true" signature="10641:10642" ph="" />
+            <marker date="1560130643892" expanded="true" signature="10646:10661" ph="warnEnabled" />
+            <marker date="1560130643892" expanded="true" signature="10661:10662" ph="" />
+            <marker date="1560130643892" expanded="true" signature="10733:10737" ph="${" />
+            <marker date="1560130643892" expanded="true" signature="10758:10772" ph="filePaths" />
+            <marker date="1560130643892" expanded="true" signature="10773:10777" ph="}" />
+            <marker date="1560130643892" expanded="true" signature="10799:10803" ph="${" />
+            <marker date="1560130643892" expanded="true" signature="10808:10820" ph="message" />
+            <marker date="1560130643892" expanded="true" signature="10820:10821" ph="}&quot;)" />
+            <marker date="1560130643892" expanded="true" signature="10853:10854" ph="" />
+            <marker date="1560130643892" expanded="true" signature="10868:10869" ph="" />
+            <marker date="1560130643892" expanded="true" signature="10887:10888" ph="" />
+            <marker date="1560130643892" expanded="true" signature="10892:10908" ph="errorEnabled" />
+            <marker date="1560130643892" expanded="true" signature="10908:10909" ph="" />
+            <marker date="1560130643892" expanded="true" signature="11003:11007" ph="${" />
+            <marker date="1560130643892" expanded="true" signature="11028:11042" ph="filePaths" />
+            <marker date="1560130643892" expanded="true" signature="11043:11047" ph="}" />
+            <marker date="1560130643892" expanded="true" signature="11050:11054" ph="${" />
+            <marker date="1560130643892" expanded="true" signature="11059:11071" ph="message" />
+            <marker date="1560130643892" expanded="true" signature="11071:11072" ph="}&quot;," />
+            <marker date="1560130643892" expanded="true" signature="11309:12250" ph="{...}" />
+            <marker date="1560130643892" expanded="true" signature="11319:11323" ph="var" />
+            <marker date="1560130643892" expanded="true" signature="11350:11354" ph="var" />
+            <marker date="1560130643892" expanded="true" signature="11383:11389" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="11416:11419" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="11458:11461" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="11510:11514" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="11547:11557" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="11605:11639" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="11712:11713" ph="" />
+            <marker date="1560130643892" expanded="true" signature="11719:11738" ph="totalInputSize" />
+            <marker date="1560130643892" expanded="true" signature="11745:11746" ph="" />
+            <marker date="1560130643892" expanded="true" signature="11806:11807" ph="" />
+            <marker date="1560130643892" expanded="true" signature="11825:11826" ph="" />
+            <marker date="1560130643892" expanded="true" signature="11866:11885" ph="totalInputSize" />
+            <marker date="1560130643892" expanded="true" signature="11930:11939" ph="max(" />
+            <marker date="1560130643892" expanded="true" signature="11960:11985" ph="lastModificationTime" />
+            <marker date="1560130643892" expanded="true" signature="11985:11986" ph=")" />
+            <marker date="1560130643892" expanded="true" signature="12010:12011" ph="" />
+            <marker date="1560130643892" expanded="true" signature="12063:12088" ph="lastModificationTime" />
+            <marker date="1560130643892" expanded="true" signature="12088:12089" ph="" />
+            <marker date="1560130643892" expanded="true" signature="12440:13354" ph="{...}" />
+            <marker date="1560130643892" expanded="true" signature="12450:12460" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="12504:12508" ph="var" />
+            <marker date="1560130643892" expanded="true" signature="12538:12539" ph="" />
+            <marker date="1560130643892" expanded="true" signature="12544:12551" ph="dir" />
+            <marker date="1560130643892" expanded="true" signature="12551:12552" ph="" />
+            <marker date="1560130643892" expanded="true" signature="12606:12615" ph="path" />
+            <marker date="1560130643892" expanded="true" signature="12666:12671" ph=" += " />
+            <marker date="1560130643892" expanded="true" signature="12675:12676" ph="" />
+            <marker date="1560130643892" expanded="true" signature="12754:12762" ph="len" />
+            <marker date="1560130643892" expanded="true" signature="12783:12787" ph="var" />
+            <marker date="1560130643892" expanded="true" signature="12843:12851" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="12911:12920" ph="max(" />
+            <marker date="1560130643892" expanded="true" signature="12922:12943" ph="modificationTime" />
+            <marker date="1560130643892" expanded="true" signature="12958:12959" ph=")" />
+            <marker date="1560130643892" expanded="true" signature="12979:12991" ph="" />
+            <marker date="1560130643892" expanded="true" signature="13027:13028" ph="" />
+            <marker date="1560130643892" expanded="true" signature="13080:13105" ph="lastModificationTime" />
+            <marker date="1560130643892" expanded="true" signature="13105:13106" ph="" />
+            <marker date="1560130643892" expanded="true" signature="13173:13174" ph="" />
+            <marker date="1560130643892" expanded="true" signature="13191:13192" ph="" />
+            <marker date="1560130643892" expanded="true" signature="13442:13505" ph="{...}" />
+            <marker date="1560130643892" expanded="true" signature="13590:19316" ph="{...}" />
+            <marker date="1560130643892" expanded="true" signature="13603:13604" ph="" />
+            <marker date="1560130643892" expanded="true" signature="13620:13621" ph="" />
+            <marker date="1560130643892" expanded="true" signature="13764:13773" ph="max(" />
+            <marker date="1560130643892" expanded="true" signature="13801:13802" ph=")" />
+            <marker date="1560130643892" expanded="true" signature="13816:13836" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="13892:13908" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="13917:13932" ph="[]" />
+            <marker date="1560130643892" expanded="true" signature="13946:13950" ph="var" />
+            <marker date="1560130643892" expanded="true" signature="13981:13987" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="14000:14014" ph="filePaths" />
+            <marker date="1560130643892" expanded="true" signature="14028:14031" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="14156:14160" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="14200:14210" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="14221:14236" ph="fileSystem" />
+            <marker date="1560130643892" expanded="true" signature="14254:14264" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="14319:14320" ph="" />
+            <marker date="1560130643892" expanded="true" signature="14329:14336" ph="dir" />
+            <marker date="1560130643892" expanded="true" signature="14336:14337" ph="" />
+            <marker date="1560130643892" expanded="true" signature="14520:14525" ph=" += " />
+            <marker date="1560130643892" expanded="true" signature="14533:14534" ph="" />
+            <marker date="1560130643892" expanded="true" signature="14580:14588" ph="len" />
+            <marker date="1560130643892" expanded="true" signature="14660:14661" ph="" />
+            <marker date="1560130643892" expanded="true" signature="14678:14679" ph="" />
+            <marker date="1560130643892" expanded="true" signature="14698:14701" ph="var" />
+            <marker date="1560130643892" expanded="true" signature="14732:14740" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="14829:14839" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="14847:14859" ph="" />
+            <marker date="1560130643892" expanded="true" signature="14893:14903" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="14914:14923" ph="path" />
+            <marker date="1560130643892" expanded="true" signature="14924:14939" ph="fileSystem" />
+            <marker date="1560130643892" expanded="true" signature="14961:14976" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="15026:15034" ph="len" />
+            <marker date="1560130643892" expanded="true" signature="15057:15068" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="15112:15127" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="15164:15167" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="15216:15219" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="15281:15294" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="15346:15354" ph=" += " />
+            <marker date="1560130643892" expanded="true" signature="15374:15384" ph="hosts" />
+            <marker date="1560130643892" expanded="true" signature="15385:15386" ph="" />
+            <marker date="1560130643892" expanded="true" signature="15442:15450" ph="len" />
+            <marker date="1560130643892" expanded="true" signature="15475:15476" ph="" />
+            <marker date="1560130643892" expanded="true" signature="15506:15507" ph="" />
+            <marker date="1560130643892" expanded="true" signature="15588:15602" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="15645:15654" ph="path" />
+            <marker date="1560130643892" expanded="true" signature="15665:15675" ph="" />
+            <marker date="1560130643892" expanded="true" signature="15748:15753" ph=" += " />
+            <marker date="1560130643892" expanded="true" signature="15756:15757" ph="" />
+            <marker date="1560130643892" expanded="true" signature="15801:15819" ph="" />
+            <marker date="1560130643892" expanded="true" signature="15917:15921" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="15951:15957" ph="" />
+            <marker date="1560130643892" expanded="true" signature="15972:15979" ph="" />
+            <marker date="1560130643892" expanded="true" signature="15993:15999" ph="" />
+            <marker date="1560130643892" expanded="true" signature="16025:16026" ph="" />
+            <marker date="1560130643892" expanded="true" signature="16074:16082" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="16209:16219" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="16227:16239" ph="" />
+            <marker date="1560130643892" expanded="true" signature="16277:16287" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="16298:16307" ph="path" />
+            <marker date="1560130643892" expanded="true" signature="16308:16323" ph="fileSystem" />
+            <marker date="1560130643892" expanded="true" signature="16360:16368" ph="len" />
+            <marker date="1560130643892" expanded="true" signature="16394:16398" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="16416:16430" ph="blockSize" />
+            <marker date="1560130643892" expanded="true" signature="16502:16503" ph="" />
+            <marker date="1560130643892" expanded="true" signature="16533:16534" ph="" />
+            <marker date="1560130643892" expanded="true" signature="16663:16664" ph="" />
+            <marker date="1560130643892" expanded="true" signature="16668:16683" ph="warnEnabled" />
+            <marker date="1560130643892" expanded="true" signature="16683:16684" ph="" />
+            <marker date="1560130643892" expanded="true" signature="16751:16755" ph="${" />
+            <marker date="1560130643892" expanded="true" signature="16772:16776" ph="}" />
+            <marker date="1560130643892" expanded="true" signature="16810:16814" ph="$" />
+            <marker date="1560130643892" expanded="true" signature="16823:16827" ph="" />
+            <marker date="1560130643892" expanded="true" signature="17013:17017" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="17030:17039" ph="max(" />
+            <marker date="1560130643892" expanded="true" signature="17053:17062" ph="min(" />
+            <marker date="1560130643892" expanded="true" signature="17085:17086" ph=")" />
+            <marker date="1560130643892" expanded="true" signature="17086:17087" ph=")" />
+            <marker date="1560130643892" expanded="true" signature="17113:17117" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="17171:17175" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="17199:17206" ph="" />
+            <marker date="1560130643892" expanded="true" signature="17206:17213" ph="" />
+            <marker date="1560130643892" expanded="true" signature="17229:17230" ph="" />
+            <marker date="1560130643892" expanded="true" signature="17307:17308" ph="" />
+            <marker date="1560130643892" expanded="true" signature="17316:17317" ph="" />
+            <marker date="1560130643892" expanded="true" signature="17475:17479" ph="var" />
+            <marker date="1560130643892" expanded="true" signature="17531:17535" ph="var" />
+            <marker date="1560130643892" expanded="true" signature="17955:17964" ph="path" />
+            <marker date="1560130643892" expanded="true" signature="18006:18016" ph="hosts" />
+            <marker date="1560130643892" expanded="true" signature="18062:18067" ph=" += " />
+            <marker date="1560130643892" expanded="true" signature="18070:18071" ph="" />
+            <marker date="1560130643892" expanded="true" signature="18190:18191" ph="" />
+            <marker date="1560130643892" expanded="true" signature="18211:18212" ph="" />
+            <marker date="1560130643892" expanded="true" signature="18406:18415" ph="path" />
+            <marker date="1560130643892" expanded="true" signature="18463:18473" ph="hosts" />
+            <marker date="1560130643892" expanded="true" signature="18519:18524" ph=" += " />
+            <marker date="1560130643892" expanded="true" signature="18527:18528" ph="" />
+            <marker date="1560130643892" expanded="true" signature="18745:18746" ph="" />
+            <marker date="1560130643892" expanded="true" signature="18763:18764" ph="" />
+            <marker date="1560130643892" expanded="true" signature="18817:18827" ph="hosts" />
+            <marker date="1560130643892" expanded="true" signature="18980:18994" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="19037:19046" ph="path" />
+            <marker date="1560130643892" expanded="true" signature="19103:19108" ph=" += " />
+            <marker date="1560130643892" expanded="true" signature="19111:19112" ph="" />
+            <marker date="1560130643892" expanded="true" signature="19190:19208" ph="" />
+            <marker date="1560130643892" expanded="true" signature="19429:20486" ph="{...}" />
+            <marker date="1560130643892" expanded="true" signature="19439:19449" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="19460:19475" ph="fileSystem" />
+            <marker date="1560130643892" expanded="true" signature="19485:19489" ph="var" />
+            <marker date="1560130643892" expanded="true" signature="19511:19523" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="19560:19563" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="19597:19600" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="19646:19656" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="19690:19691" ph="" />
+            <marker date="1560130643892" expanded="true" signature="19695:19702" ph="dir" />
+            <marker date="1560130643892" expanded="true" signature="19702:19703" ph="" />
+            <marker date="1560130643892" expanded="true" signature="19725:19726" ph="" />
+            <marker date="1560130643892" expanded="true" signature="19775:19776" ph="" />
+            <marker date="1560130643892" expanded="true" signature="19832:19841" ph="path" />
+            <marker date="1560130643892" expanded="true" signature="19895:19896" ph="" />
+            <marker date="1560130643892" expanded="true" signature="19920:19936" ph="debugEnabled" />
+            <marker date="1560130643892" expanded="true" signature="19936:19937" ph="" />
+            <marker date="1560130643892" expanded="true" signature="19981:19985" ph="${" />
+            <marker date="1560130643892" expanded="true" signature="19989:19998" ph="path" />
+            <marker date="1560130643892" expanded="true" signature="20009:20013" ph="}" />
+            <marker date="1560130643892" expanded="true" signature="20103:20104" ph="" />
+            <marker date="1560130643892" expanded="true" signature="20124:20125" ph="" />
+            <marker date="1560130643892" expanded="true" signature="20149:20154" ph=" += " />
+            <marker date="1560130643892" expanded="true" signature="20157:20158" ph="" />
+            <marker date="1560130643892" expanded="true" signature="20190:20198" ph="len" />
+            <marker date="1560130643892" expanded="true" signature="20269:20270" ph="" />
+            <marker date="1560130643892" expanded="true" signature="20294:20310" ph="debugEnabled" />
+            <marker date="1560130643892" expanded="true" signature="20310:20311" ph="" />
+            <marker date="1560130643892" expanded="true" signature="20351:20355" ph="${" />
+            <marker date="1560130643892" expanded="true" signature="20359:20368" ph="path" />
+            <marker date="1560130643892" expanded="true" signature="20379:20383" ph="}" />
+            <marker date="1560130643892" expanded="true" signature="20551:20752" ph="{...}" />
+            <marker date="1560130643892" expanded="true" signature="20564:20565" ph="" />
+            <marker date="1560130643892" expanded="true" signature="20609:20618" ph="path" />
+            <marker date="1560130643892" expanded="true" signature="20627:20628" ph="" />
+            <marker date="1560130643892" expanded="true" signature="20837:21005" ph="{...}" />
+            <marker date="1560130643892" expanded="true" signature="20847:20853" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="20896:20905" ph="name" />
+            <marker date="1560130643892" expanded="true" signature="20923:20947" ph="" />
+            <marker date="1560130643892" expanded="true" signature="20990:20991" ph="?)" />
+            <marker date="1560130643892" expanded="true" signature="20991:20994" ph=" ?: " />
+            <marker date="1560130643892" expanded="true" signature="21060:21238" ph="{...}" />
+            <marker date="1560130643892" expanded="true" signature="21070:21076" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="21095:21104" ph="path" />
+            <marker date="1560130643892" expanded="true" signature="21105:21114" ph="name" />
+            <marker date="1560130643892" expanded="true" signature="21221:21230" ph="path" />
+            <marker date="1560130643892" expanded="true" signature="21354:21882" ph="{...}" />
+            <marker date="1560130643892" expanded="true" signature="21368:21371" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="21426:21430" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="21454:21465" ph="offset" />
+            <marker date="1560130643892" expanded="true" signature="21479:21483" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="21518:21529" ph="length" />
+            <marker date="1560130643892" expanded="true" signature="21546:21547" ph="" />
+            <marker date="1560130643892" expanded="true" signature="21553:21557" ph=" in [" />
+            <marker date="1560130643892" expanded="true" signature="21567:21580" ph=", " />
+            <marker date="1560130643892" expanded="true" signature="21588:21589" ph="" />
+            <marker date="1560130643892" expanded="true" signature="21611:21612" ph="" />
+            <marker date="1560130643892" expanded="true" signature="21670:21671" ph="" />
+            <marker date="1560130643892" expanded="true" signature="21950:22870" ph="{...}" />
+            <marker date="1560130643892" expanded="true" signature="22027:22037" ph="start" />
+            <marker date="1560130643892" expanded="true" signature="22076:22087" ph="length" />
+            <marker date="1560130643892" expanded="true" signature="22100:22101" ph="" />
+            <marker date="1560130643892" expanded="true" signature="22105:22121" ph="debugEnabled" />
+            <marker date="1560130643892" expanded="true" signature="22121:22122" ph="" />
+            <marker date="1560130643892" expanded="true" signature="22168:22172" ph="${" />
+            <marker date="1560130643892" expanded="true" signature="22182:22191" ph="path" />
+            <marker date="1560130643892" expanded="true" signature="22191:22195" ph="}" />
+            <marker date="1560130643892" expanded="true" signature="22197:22201" ph="${" />
+            <marker date="1560130643892" expanded="true" signature="22216:22220" ph="}" />
+            <marker date="1560130643892" expanded="true" signature="22221:22225" ph="${" />
+            <marker date="1560130643892" expanded="true" signature="22241:22245" ph="}" />
+            <marker date="1560130643892" expanded="true" signature="22269:22305" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="22565:22566" ph="" />
+            <marker date="1560130643892" expanded="true" signature="22580:22581" ph="" />
+            <marker date="1560130643892" expanded="true" signature="22649:22653" ph="${" />
+            <marker date="1560130643892" expanded="true" signature="22663:22672" ph="path" />
+            <marker date="1560130643892" expanded="true" signature="22672:22676" ph="}" />
+            <marker date="1560130643892" expanded="true" signature="22678:22682" ph="${" />
+            <marker date="1560130643892" expanded="true" signature="22697:22701" ph="}" />
+            <marker date="1560130643892" expanded="true" signature="22702:22706" ph="${" />
+            <marker date="1560130643892" expanded="true" signature="22722:22726" ph="}" />
+            <marker date="1560130643892" expanded="true" signature="22729:22733" ph="${" />
+            <marker date="1560130643892" expanded="true" signature="22738:22750" ph="message" />
+            <marker date="1560130643892" expanded="true" signature="22750:22751" ph="}&quot;," />
+            <marker date="1560130643892" expanded="true" signature="22781:22782" ph="" />
+            <marker date="1560130643892" expanded="true" signature="22803:22804" ph="" />
+            <marker date="1560130643892" expanded="true" signature="22998:23295" ph="{...}" />
+            <marker date="1560130643892" expanded="true" signature="23008:23037" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="23112:23121" ph="path" />
+            <marker date="1560130643892" expanded="true" signature="23139:23159" ph="" />
+            <marker date="1560130643892" expanded="true" signature="23159:23196" ph="" />
+            <marker date="1560130643892" expanded="true" signature="23252:23253" ph="?." />
+            <marker date="1560130643892" expanded="true" signature="23273:23276" ph=" ?: " />
+            <marker date="1560130643892" expanded="true" signature="23287:23288" ph="" />
+            <marker date="1560130643892" expanded="true" signature="23340:23458" ph="{...}" />
+            <marker date="1560130643892" expanded="true" signature="23464:23482" ph="/**...*/" />
+            <marker date="1560130643892" expanded="false" signature="23538:23549" ph=" { " />
+            <marker date="1560130643892" expanded="false" signature="23562:23568" ph=" }" />
+            <marker date="1560130643892" expanded="true" signature="23599:23777" ph="{...}" />
+            <marker date="1560130643892" expanded="true" signature="23621:23635" ph="filePaths" />
+            <marker date="1560130643892" expanded="true" signature="23652:23666" ph="filePaths" />
+            <marker date="1560130643892" expanded="true" signature="23694:23698" ph="${" />
+            <marker date="1560130643892" expanded="true" signature="23719:23733" ph="filePaths" />
+            <marker date="1560130643892" expanded="true" signature="23734:23737" ph="}${" />
+            <marker date="1560130643892" expanded="true" signature="23740:23741" ph="}&quot; " />
+            <marker date="1560130643892" expanded="true" signature="23790:23928" ph="{...}" />
+            <marker date="1560130643892" expanded="true" signature="23990:26619" ph="{...}" />
+            <marker date="1560130643892" expanded="true" signature="24278:24441" ph="{...}" />
+            <marker date="1560130643892" expanded="true" signature="24347:24357" ph="daemon = " />
+            <marker date="1560130643892" expanded="true" signature="24361:24362" ph="" />
+            <marker date="1560130643892" expanded="true" signature="24469:24900" ph="{...}" />
+            <marker date="1560130643892" expanded="true" signature="24505:24515" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="24547:24556" ph="path" />
+            <marker date="1560130643892" expanded="true" signature="24614:24623" ph="path" />
+            <marker date="1560130643892" expanded="true" signature="24645:24646" ph="" />
+            <marker date="1560130643892" expanded="true" signature="24658:24659" ph="" />
+            <marker date="1560130643892" expanded="true" signature="24682:24699" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="24822:24823" ph="" />
+            <marker date="1560130643892" expanded="true" signature="24837:24838" ph="" />
+            <marker date="1560130643892" expanded="true" signature="24972:26258" ph="{...}" />
+            <marker date="1560130643892" expanded="true" signature="24986:24990" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="25039:25043" ph="var" />
+            <marker date="1560130643892" expanded="true" signature="25176:25177" ph="" />
+            <marker date="1560130643892" expanded="true" signature="25203:25204" ph="" />
+            <marker date="1560130643892" expanded="true" signature="25446:25447" ph="" />
+            <marker date="1560130643892" expanded="true" signature="25465:25466" ph="" />
+            <marker date="1560130643892" expanded="true" signature="25525:25526" ph="" />
+            <marker date="1560130643892" expanded="true" signature="25543:25544" ph="" />
+            <marker date="1560130643892" expanded="true" signature="25652:25659" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="25678:25687" ph="alive" />
+            <marker date="1560130643892" expanded="true" signature="25705:25718" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="25725:25743" ph="" />
+            <marker date="1560130643892" expanded="true" signature="25746:25747" ph="" />
+            <marker date="1560130643892" expanded="true" signature="25765:25784" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="25797:25812" ph="stackTrace" />
+            <marker date="1560130643892" expanded="true" signature="25830:25833" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="25875:25878" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="25932:25949" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="25989:25997" ph=" += " />
+            <marker date="1560130643892" expanded="true" signature="25997:26004" ph="&quot;&#9;at &quot;" />
+            <marker date="1560130643892" expanded="true" signature="26004:26013" ph=" + " />
+            <marker date="1560130643892" expanded="true" signature="26025:26034" ph=" + " />
+            <marker date="1560130643892" expanded="true" signature="26038:26039" ph="" />
+            <marker date="1560130643892" expanded="true" signature="26143:26148" ph="${" />
+            <marker date="1560130643892" expanded="true" signature="26172:26177" ph="}" />
+            <marker date="1560130643892" expanded="true" signature="26214:26218" ph="$" />
+            <marker date="1560130643892" expanded="true" signature="26221:26232" ph="" />
+            <marker date="1560130643892" expanded="true" signature="26232:26233" ph="&quot;)" />
+            <marker date="1560130643892" expanded="true" signature="26293:26613" ph="{...}" />
+            <marker date="1560130643892" expanded="true" signature="26340:26357" ph="val" />
+            <marker date="1560130643892" expanded="true" signature="26425:26426" ph="" />
+            <marker date="1560130643892" expanded="true" signature="26442:26443" ph="" />
+            <marker date="1560130643892" expanded="true" signature="26530:26531" ph="" />
+            <marker date="1560130643892" expanded="true" signature="26545:26546" ph="" />
+            <marker date="1560130643892" expanded="true" signature="26690:27728" ph="{...}" />
+            <marker date="1560130643892" expanded="true" signature="26915:27064" ph="{...}" />
+            <marker date="1560130643892" expanded="false" signature="27111:27126" ph=" { " />
+            <marker date="1560130643892" expanded="false" signature="27150:27160" ph=" }" />
+            <marker date="1560130643892" expanded="false" signature="27201:27216" ph=" { " />
+            <marker date="1560130643892" expanded="false" signature="27237:27247" ph=" }" />
+            <marker date="1560130643892" expanded="true" signature="27290:27458" ph="{...}" />
+            <marker date="1560130643892" expanded="true" signature="27369:27375" ph="" />
+            <marker date="1560130643892" expanded="true" signature="27375:27385" ph="ceil(" />
+            <marker date="1560130643892" expanded="true" signature="27385:27394" ph="" />
+            <marker date="1560130643892" expanded="true" signature="27394:27401" ph="" />
+            <marker date="1560130643892" expanded="true" signature="27439:27440" ph="" />
+            <marker date="1560130643892" expanded="true" signature="27440:27441" ph=")" />
+            <marker date="1560130643892" expanded="false" signature="27504:27519" ph=" { " />
+            <marker date="1560130643892" expanded="false" signature="27549:27559" ph=" }" />
+            <marker date="1560130643892" expanded="true" signature="27594:27722" ph="{...}" />
+            <marker date="1560130643892" expanded="true" signature="27621:27625" ph="${" />
+            <marker date="1560130643892" expanded="true" signature="27638:27642" ph="}" />
+            <marker date="1560130643892" expanded="true" signature="27653:27657" ph="${" />
+            <marker date="1560130643892" expanded="true" signature="27679:27683" ph="}" />
+            <marker date="1560130643892" expanded="true" signature="27691:27695" ph="${" />
+            <marker date="1560130643892" expanded="true" signature="27711:27712" ph="}&quot;;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/com/gaowj/util/HDFSUtil.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/com/gaowj/util/MyHDFSUtil.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1824">
+          <caret line="91" column="31" lean-forward="false" selection-start-line="91" selection-start-column="31" selection-end-line="91" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-hdfs/2.6.2/hadoop-hdfs-2.6.2.jar!/org/apache/hadoop/hdfs/HAUtil.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="170" column="36" lean-forward="false" selection-start-line="170" selection-start-column="36" selection-end-line="170" selection-end-column="36" />
+          <folding>
+            <marker date="1553764463219" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1553764463219" expanded="false" signature="146:1574" ph="..." />
+            <marker date="1553764463219" expanded="true" signature="1784:1791" ph="{}" />
+            <marker date="1553764463219" expanded="true" signature="1864:2187" ph="{...}" />
+            <marker date="1553764463219" expanded="true" signature="1874:1917" ph="val" />
+            <marker date="1553764463219" expanded="true" signature="1976:1977" ph="" />
+            <marker date="1553764463219" expanded="true" signature="1994:1995" ph="" />
+            <marker date="1553764463219" expanded="true" signature="2053:2083" ph="val" />
+            <marker date="1553764463219" expanded="true" signature="2092:2097" ph="" />
+            <marker date="1553764463219" expanded="true" signature="2106:2111" ph="[" />
+            <marker date="1553764463219" expanded="true" signature="2115:2116" ph="]" />
+            <marker date="1553764463219" expanded="true" signature="2254:2327" ph="{...}" />
+            <marker date="1553764463219" expanded="true" signature="2401:3019" ph="{...}" />
+            <marker date="1553764463219" expanded="true" signature="2411:2417" ph="val" />
+            <marker date="1553764463219" expanded="true" signature="2481:2482" ph="" />
+            <marker date="1553764463219" expanded="true" signature="2500:2501" ph="" />
+            <marker date="1553764463219" expanded="true" signature="2564:2572" ph="val" />
+            <marker date="1553764463219" expanded="true" signature="2645:2653" ph="" />
+            <marker date="1553764463219" expanded="true" signature="2706:2707" ph="" />
+            <marker date="1553764463219" expanded="true" signature="2723:2724" ph="" />
+            <marker date="1553764463219" expanded="true" signature="2743:2749" ph="val" />
+            <marker date="1553764463219" expanded="true" signature="3134:3269" ph="{...}" />
+            <marker date="1553764463219" expanded="true" signature="3144:3152" ph="val" />
+            <marker date="1553764463219" expanded="true" signature="3354:4531" ph="{...}" />
+            <marker date="1553764463219" expanded="true" signature="3567:3585" ph="val" />
+            <marker date="1553764463219" expanded="true" signature="3638:3644" ph="val" />
+            <marker date="1553764463219" expanded="true" signature="3807:3811" ph="${" />
+            <marker date="1553764463219" expanded="true" signature="3854:3867" ph="[" />
+            <marker date="1553764463219" expanded="true" signature="3871:3872" ph="]" />
+            <marker date="1553764463219" expanded="true" signature="3873:3874" ph="}&quot;," />
+            <marker date="1553764463219" expanded="true" signature="3875:3888" ph="[" />
+            <marker date="1553764463219" expanded="true" signature="3892:3893" ph="]" />
+            <marker date="1553764463219" expanded="true" signature="4041:4054" ph="[" />
+            <marker date="1553764463219" expanded="true" signature="4102:4103" ph="]" />
+            <marker date="1553764463219" expanded="true" signature="4165:4174" ph="empty" />
+            <marker date="1553764463219" expanded="true" signature="4341:4354" ph="[" />
+            <marker date="1553764463219" expanded="true" signature="4358:4359" ph="]" />
+            <marker date="1553764463219" expanded="true" signature="4370:4387" ph="val" />
+            <marker date="1553764463219" expanded="true" signature="4436:4444" ph=" -= " />
+            <marker date="1553764463219" expanded="true" signature="4450:4451" ph="" />
+            <marker date="1553764463219" expanded="true" signature="4504:4512" ph="" />
+            <marker date="1553764463219" expanded="true" signature="4607:4917" ph="{...}" />
+            <marker date="1553764463219" expanded="true" signature="4617:4623" ph="val" />
+            <marker date="1553764463219" expanded="true" signature="4681:4687" ph="val" />
+            <marker date="1553764463219" expanded="true" signature="4746:4759" ph="val" />
+            <marker date="1553764463219" expanded="true" signature="4989:5063" ph="{...}" />
+            <marker date="1553764463219" expanded="true" signature="5142:5207" ph="{...}" />
+            <marker date="1553764463219" expanded="true" signature="5285:5400" ph="{...}" />
+            <marker date="1553764463219" expanded="true" signature="5295:5301" ph="val" />
+            <marker date="1553764463219" expanded="true" signature="5321:5330" ph="host" />
+            <marker date="1553764463219" expanded="true" signature="5492:5661" ph="{...}" />
+            <marker date="1553764463219" expanded="true" signature="5502:5508" ph="val" />
+            <marker date="1553764463219" expanded="true" signature="5528:5537" ph="host" />
+            <marker date="1553764463219" expanded="true" signature="5547:5553" ph="val" />
+            <marker date="1553764463219" expanded="true" signature="5602:5606" ph="$" />
+            <marker date="1553764463219" expanded="true" signature="5610:5611" ph="&quot;;" />
+            <marker date="1553764463219" expanded="true" signature="5759:6015" ph="{...}" />
+            <marker date="1553764463219" expanded="true" signature="5769:5816" ph="val" />
+            <marker date="1553764463219" expanded="true" signature="5920:5935" ph="" />
+            <marker date="1553764463219" expanded="true" signature="6093:6383" ph="{...}" />
+            <marker date="1553764463219" expanded="true" signature="6103:6109" ph="var" />
+            <marker date="1553764463219" expanded="true" signature="6125:6137" ph="service" />
+            <marker date="1553764463219" expanded="true" signature="6158:6164" ph="val" />
+            <marker date="1553764463219" expanded="true" signature="6231:6232" ph="" />
+            <marker date="1553764463219" expanded="true" signature="6257:6258" ph="" />
+            <marker date="1553764463219" expanded="true" signature="6351:6352" ph="(&quot;$" />
+            <marker date="1553764463219" expanded="true" signature="6358:6362" ph="" />
+            <marker date="1553764463219" expanded="true" signature="6365:6369" ph="$" />
+            <marker date="1553764463219" expanded="true" signature="6375:6376" ph="&quot;)" />
+            <marker date="1553764463219" expanded="true" signature="6463:6557" ph="{...}" />
+            <marker date="1553764463219" expanded="true" signature="6540:6549" ph="host" />
+            <marker date="1553764463219" expanded="true" signature="6622:6693" ph="{...}" />
+            <marker date="1553764463219" expanded="true" signature="6645:6657" ph="service" />
+            <marker date="1553764463219" expanded="false" signature="6771:6782" ph=" { " />
+            <marker date="1553764463219" expanded="true" signature="6793:6797" ph="$" />
+            <marker date="1553764463219" expanded="true" signature="6803:6807" ph="" />
+            <marker date="1553764463219" expanded="false" signature="6810:6816" ph=" }" />
+            <marker date="1553764463219" expanded="true" signature="6951:7920" ph="{...}" />
+            <marker date="1553764463219" expanded="true" signature="6961:6965" ph="val" />
+            <marker date="1553764463219" expanded="true" signature="7033:7065" ph="val" />
+            <marker date="1553764463219" expanded="true" signature="7117:7128" ph="tokens" />
+            <marker date="1553764463219" expanded="true" signature="7142:7143" ph="" />
+            <marker date="1553764463219" expanded="true" signature="7158:7159" ph="" />
+            <marker date="1553764463219" expanded="true" signature="7174:7182" ph="val" />
+            <marker date="1553764463219" expanded="true" signature="7259:7276" ph="val" />
+            <marker date="1553764463219" expanded="true" signature="7292:7311" ph="" />
+            <marker date="1553764463219" expanded="true" signature="7338:7370" ph="val" />
+            <marker date="1553764463219" expanded="true" signature="7505:7509" ph="val" />
+            <marker date="1553764463219" expanded="true" signature="7526:7527" ph="(&quot;${" />
+            <marker date="1553764463219" expanded="true" signature="7571:7575" ph="}" />
+            <marker date="1553764463219" expanded="true" signature="7577:7581" ph="${" />
+            <marker date="1553764463219" expanded="true" signature="7595:7607" ph="service" />
+            <marker date="1553764463219" expanded="true" signature="7607:7608" ph="}&quot;)" />
+            <marker date="1553764463219" expanded="true" signature="7740:7744" ph="$" />
+            <marker date="1553764463219" expanded="true" signature="7749:7753" ph="" />
+            <marker date="1553764463219" expanded="true" signature="7766:7770" ph="$" />
+            <marker date="1553764463219" expanded="true" signature="7782:7783" ph="&quot;)" />
+            <marker date="1553764463219" expanded="true" signature="7892:7896" ph="$" />
+            <marker date="1553764463219" expanded="true" signature="7901:7902" ph="&quot;)" />
+            <marker date="1553764463219" expanded="true" signature="8011:8408" ph="{...}" />
+            <marker date="1553764463219" expanded="true" signature="8024:8025" ph="" />
+            <marker date="1553764463219" expanded="true" signature="8063:8064" ph="" />
+            <marker date="1553764463219" expanded="true" signature="8126:8130" ph="$" />
+            <marker date="1553764463219" expanded="true" signature="8132:8136" ph="" />
+            <marker date="1553764463219" expanded="true" signature="8221:8242" ph="val" />
+            <marker date="1553764463219" expanded="true" signature="8249:8272" ph="" />
+            <marker date="1553764463219" expanded="true" signature="8288:8297" ph="val" />
+            <marker date="1553764463219" expanded="true" signature="8314:8325" ph="client" />
+            <marker date="1553764463219" expanded="true" signature="8377:8390" ph="namenode" />
+            <marker date="1553764463219" expanded="true" signature="8540:8975" ph="{...}" />
+            <marker date="1553764463219" expanded="true" signature="8550:8584" ph="val" />
+            <marker date="1553764463219" expanded="true" signature="8677:8697" ph="val" />
+            <marker date="1553764463219" expanded="true" signature="8749:8757" ph="val" />
+            <marker date="1553764463219" expanded="true" signature="8826:8854" ph="val" />
+            <marker date="1553764463219" expanded="true" signature="8863:8877" ph="" />
+            <marker date="1553764463219" expanded="true" signature="8909:8914" ph=" += " />
+            <marker date="1553764463219" expanded="true" signature="8920:8930" ph="proxy" />
+            <marker date="1553764463219" expanded="true" signature="8930:8931" ph="" />
+            <marker date="1553764463219" expanded="true" signature="9128:9733" ph="{...}" />
+            <marker date="1553764463219" expanded="true" signature="9138:9168" ph="val" />
+            <marker date="1553764463219" expanded="true" signature="9235:9243" ph="" />
+            <marker date="1553764463219" expanded="true" signature="9258:9279" ph="val" />
+            <marker date="1553764463219" expanded="true" signature="9333:9341" ph="val" />
+            <marker date="1553764463219" expanded="true" signature="9423:9440" ph="val" />
+            <marker date="1553764463219" expanded="true" signature="9453:9472" ph="" />
+            <marker date="1553764463219" expanded="true" signature="9495:9510" ph="var" />
+            <marker date="1553764463219" expanded="true" signature="9631:9647" ph="currentUser" />
+            <marker date="1553764463219" expanded="true" signature="9676:9681" ph=" += " />
+            <marker date="1553764463219" expanded="true" signature="9690:9691" ph="" />
+            <marker date="1553764463219" expanded="true" signature="9831:10447" ph="{...}" />
+            <marker date="1553764463219" expanded="true" signature="9841:9849" ph="val" />
+            <marker date="1553764463219" expanded="true" signature="9915:9916" ph="" />
+            <marker date="1553764463219" expanded="true" signature="9928:9929" ph="" />
+            <marker date="1553764463219" expanded="true" signature="9948:9962" ph="val" />
+            <marker date="1553764463219" expanded="true" signature="9974:9990" ph="" />
+            <marker date="1553764463219" expanded="true" signature="10128:10129" ph="" />
+            <marker date="1553764463219" expanded="true" signature="10149:10150" ph="" />
+            <marker date="1553764463219" expanded="true" signature="10173:10184" ph="val" />
+            <marker date="1553764463219" expanded="true" signature="10246:10247" ph="" />
+            <marker date="1553764463219" expanded="true" signature="10280:10281" ph="" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.6.2/hadoop-common-2.6.2.jar!/org/apache/hadoop/fs/Path.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/com/gaowj/util/FindHdfsPaths.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="36" column="21" lean-forward="true" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.6.2/hadoop-common-2.6.2.jar!/org/apache/hadoop/fs/FileSystem.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="720" column="24" lean-forward="false" selection-start-line="720" selection-start-column="24" selection-end-line="720" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/gaowj/util/ActiveNNAdd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="27" column="95" lean-forward="false" selection-start-line="27" selection-start-column="95" selection-end-line="27" selection-end-column="95" />
+          <folding>
+            <element signature="e#937#955#1" expanded="false" />
+            <element signature="e#1025#1086#1" expanded="false" />
+            <element signature="e#1224#1266#1" expanded="false" />
+            <element signature="e#1246#1265#0" expanded="false" />
+            <element signature="e#1393#1417#0" expanded="false" />
+            <element signature="e#1820#1855#1" expanded="false" />
+            <element signature="e#1882#1929#1" expanded="false" />
+            <element signature="e#1906#1928#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-java/1.8.0/flink-java-1.8.0.jar!/org/apache/flink/api/java/io/TextInputFormat.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="22" column="43" lean-forward="false" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+          <folding>
+            <marker date="1560130574919" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1560130574919" expanded="false" signature="152:432" ph="..." />
+            <marker date="1560130574919" expanded="true" signature="752:763" ph=" { " />
+            <marker date="1560130574919" expanded="true" signature="779:794" ph="" />
+            <marker date="1560130574919" expanded="true" signature="800:806" ph=" }" />
+            <marker date="1560130574919" expanded="false" signature="842:853" ph=" { " />
+            <marker date="1560130574919" expanded="false" signature="877:883" ph=" }" />
+            <marker date="1560130574919" expanded="true" signature="936:1126" ph="{...}" />
+            <marker date="1560130574919" expanded="true" signature="949:950" ph="" />
+            <marker date="1560130574919" expanded="true" signature="969:970" ph="" />
+            <marker date="1560130574919" expanded="true" signature="1180:1400" ph="{...}" />
+            <marker date="1560130574919" expanded="true" signature="1230:1231" ph="" />
+            <marker date="1560130574919" expanded="true" signature="1297:1298" ph="" />
+            <marker date="1560130574919" expanded="true" signature="1362:1366" ph="${" />
+            <marker date="1560130574919" expanded="true" signature="1382:1383" ph="}&quot;)" />
+            <marker date="1560130574919" expanded="true" signature="1507:1793" ph="{...}" />
+            <marker date="1560130574919" expanded="true" signature="1520:1521" ph="" />
+            <marker date="1560130574919" expanded="true" signature="1526:1540" ph="delimiter" />
+            <marker date="1560130574919" expanded="true" signature="1557:1571" ph="delimiter" />
+            <marker date="1560130574919" expanded="true" signature="1592:1606" ph="delimiter" />
+            <marker date="1560130574919" expanded="true" signature="1679:1680" ph="" />
+            <marker date="1560130574919" expanded="true" signature="1824:1934" ph="{...}" />
+            <marker date="1560130574919" expanded="true" signature="1859:1863" ph="${" />
+            <marker date="1560130574919" expanded="true" signature="1884:1898" ph="filePaths" />
+            <marker date="1560130574919" expanded="true" signature="1899:1903" ph="}" />
+            <marker date="1560130574919" expanded="true" signature="1907:1911" ph="${" />
+            <marker date="1560130574919" expanded="true" signature="1927:1928" ph="}&quot;;" />
+            <marker date="1560130574919" expanded="false" signature="1975:1986" ph=" { " />
+            <marker date="1560130574919" expanded="false" signature="1998:2004" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/gaowj/api/DataStream/ConfigurationDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/gaowj/api/DataStream/BucketingSinkDemo.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-552">
+          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/gaowj/api/DataStream/FlinkHdfsZip.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/gaowj/api/DataStream/HadoopOutputFormatDemo.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/gaowj/util/CONSTANTS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/gaowj/util/javaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="80" lean-forward="false" selection-start-line="6" selection-start-column="80" selection-end-line="6" selection-end-column="80" />
+          <folding>
+            <element signature="e#126#224#1" expanded="false" />
+            <element signature="e#234#287#1" expanded="false" />
+            <element signature="e#301#309#1" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1079,60 +1813,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="350" column="59" lean-forward="false" selection-start-line="350" selection-start-column="59" selection-end-line="350" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-scala_2.11/1.8.0/flink-streaming-scala_2.11-1.8.0.jar!/org/apache/flink/streaming/api/scala/StreamExecutionEnvironment.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.8.0/flink-streaming-java_2.11-1.8.0.jar!/org/apache/flink/streaming/api/functions/sink/filesystem/StreamingFileSink.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="34" column="15" lean-forward="true" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-scala_2.11/1.8.0/flink-streaming-scala_2.11-1.8.0.jar!/org/apache/flink/streaming/api/scala/DataStream.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="120" column="28" lean-forward="true" selection-start-line="120" selection-start-column="28" selection-end-line="120" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/gaowj/api/DataStream/BucketingSinkDemo.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="19" column="2" lean-forward="false" selection-start-line="19" selection-start-column="2" selection-end-line="24" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/gaowj/util/scalaTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="384">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#57#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/gaowj/operation/MulCountStream.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/gaowj/api/DataStream/StreamingFileSinkDemo.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/gaowj/util/FindHdfsPaths.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        <state relative-caret-position="967">
+          <caret line="231" column="0" lean-forward="false" selection-start-line="231" selection-start-column="0" selection-end-line="231" selection-end-column="0" />
           <folding>
-            <element signature="e#34#67#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1536#1567#1" expanded="false" />
+            <element signature="e#1557#1566#0" expanded="false" />
+            <element signature="e#1576#1613#1" expanded="false" />
+            <element signature="e#1889#1921#1" expanded="false" />
+            <element signature="e#1905#1920#0" expanded="false" />
+            <element signature="e#2342#2374#1" expanded="false" />
+            <element signature="e#2358#2373#0" expanded="false" />
+            <element signature="e#2392#2407#0" expanded="false" />
+            <element signature="e#2803#2826#1" expanded="false" />
+            <element signature="e#2836#2857#1" expanded="false" />
+            <element signature="e#2890#2905#0" expanded="false" />
+            <element signature="e#3556#3598#1" expanded="false" />
+            <element signature="e#3574#3597#0" expanded="false" />
+            <element signature="e#3587#3595#0" expanded="false" />
+            <element signature="e#3607#3628#1" expanded="false" />
+            <element signature="e#3661#3676#0" expanded="false" />
+            <element signature="e#3691#3751#1" expanded="false" />
+            <element signature="e#3765#3822#1" expanded="false" />
+            <element signature="e#3835#3877#1" expanded="false" />
+            <element signature="e#3857#3876#0" expanded="false" />
+            <element signature="e#3890#3965#1" expanded="false" />
+            <element signature="e#3915#3939#0" expanded="false" />
+            <element signature="e#3984#4001#0" expanded="false" />
+            <element signature="e#4035#4077#1" expanded="false" />
+            <element signature="e#4049#4065#0" expanded="false" />
+            <element signature="e#4094#4142#1" expanded="false" />
+            <element signature="e#4524#4566#1" expanded="false" />
+            <element signature="e#4542#4565#0" expanded="false" />
+            <element signature="e#4555#4563#0" expanded="false" />
+            <element signature="e#4575#4596#1" expanded="false" />
+            <element signature="e#4629#4644#0" expanded="false" />
+            <element signature="e#4658#4718#1" expanded="false" />
+            <element signature="e#4737#4754#0" expanded="false" />
+            <element signature="e#4788#4830#1" expanded="false" />
+            <element signature="e#4802#4818#0" expanded="false" />
+            <element signature="e#5132#5145#1" expanded="false" />
+            <element signature="e#5154#5169#1" expanded="false" />
+            <element signature="e#5178#5199#1" expanded="false" />
+            <element signature="e#5209#5247#1" expanded="false" />
+            <element signature="e#5280#5295#0" expanded="false" />
+            <element signature="e#5314#5322#0" expanded="false" />
+            <element signature="e#5357#5409#0" expanded="false" />
+            <element signature="e#6519#6540#1" expanded="false" />
+            <element signature="e#6573#6588#0" expanded="false" />
+            <element signature="e#7183#7198#1" expanded="false" />
+            <element signature="e#7207#7228#1" expanded="false" />
+            <element signature="e#7261#7276#0" expanded="false" />
+            <element signature="e#7290#7350#1" expanded="false" />
+            <element signature="e#7368#7400#0" expanded="false" />
+            <element signature="e#7645#7687#1" expanded="false" />
+            <element signature="e#7663#7686#0" expanded="false" />
+            <element signature="e#7676#7684#0" expanded="false" />
+            <element signature="e#7696#7717#1" expanded="false" />
+            <element signature="e#7726#7745#1" expanded="false" />
+            <element signature="e#7819#7834#0" expanded="false" />
+            <element signature="e#7852#7943#1" expanded="false" />
+            <element signature="e#8295#8379#1" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/gaowj/api/DataSet/readFileDemo.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="43" column="21" lean-forward="false" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+          <folding>
+            <element signature="e#31#47#0" expanded="true" />
           </folding>
         </state>
       </provider>
