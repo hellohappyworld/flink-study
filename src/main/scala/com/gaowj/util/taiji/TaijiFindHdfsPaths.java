@@ -1,4 +1,11 @@
-package com.gaowj.util;
+package com.gaowj.util.taiji;
+
+import org.apache.commons.lang.StringUtils;
+import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.fs.FileStatus;
+import org.apache.hadoop.fs.FileSystem;
+import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.hdfs.HAUtil;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -6,19 +13,9 @@ import java.io.InputStreamReader;
 import java.net.InetAddress;
 import java.net.InetSocketAddress;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
-import org.apache.commons.lang.StringUtils;
-import org.apache.hadoop.conf.Configuration;
-import org.apache.hadoop.fs.FSDataOutputStream;
-import org.apache.hadoop.fs.FileStatus;
-import org.apache.hadoop.fs.FileSystem;
-import org.apache.hadoop.fs.Path;
-import org.apache.hadoop.fs.permission.FsPermission;
-import org.apache.hadoop.hdfs.HAUtil;
-
-public class FindHdfsPaths {
+public class TaijiFindHdfsPaths {
     private static final Configuration conf = new Configuration();
 
     /**
@@ -29,9 +26,9 @@ public class FindHdfsPaths {
     public static Configuration getConf() {
         conf.set("fs.defaultFS", "hdfs://nameservice1");
         conf.set("dfs.nameservices", "nameservice1");
-        conf.set("dfs.ha.namenodes.nameservice1", "namenode197,namenode219");
-        conf.set("dfs.namenode.rpc-address.nameservice1.namenode197", "10.90.90.148:8020");
-        conf.set("dfs.namenode.rpc-address.nameservice1.namenode219", "10.90.92.148:8020");
+        conf.set("dfs.ha.namenodes.nameservice1", "namenode87,namenode754");
+        conf.set("dfs.namenode.rpc-address.nameservice1.namenode87", "10.80.15.158:8020");
+        conf.set("dfs.namenode.rpc-address.nameservice1.namenode754", "10.80.1.159:8020");
         conf.set("dfs.client.failover.proxy.provider.nameservice1", "org.apache.hadoop.hdfs.server.namenode.ha.ConfiguredFailoverProxyProvider");
 
         return conf;
@@ -305,7 +302,7 @@ public class FindHdfsPaths {
     }
 
     public static void main(String[] args) {
-        List<String> list = existFiles("/user/tongji/transform_logs/app_news/2019-08-01/0*");
+        List<String> list = existFiles("/user/tongji/all_logs_src/2019-08-01/0*");
 //        System.out.println(list.size());
         String[] arr = list.toArray(new String[list.size()]);
 

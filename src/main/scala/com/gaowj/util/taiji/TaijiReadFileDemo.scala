@@ -1,8 +1,7 @@
-package com.gaowj.api.DataSet
+package com.gaowj.util.taiji
 
 import java.util
 
-import com.gaowj.util.FindHdfsPaths
 import org.apache.flink.api.java.io.TextInputFormat
 import org.apache.flink.api.scala.{DataSet, ExecutionEnvironment, _}
 import org.apache.flink.configuration.Configuration
@@ -12,7 +11,7 @@ import org.apache.flink.core.fs.Path
   * Created by gaowj on 2019-07-25.
   * Function：测试Fink读取多文件和嵌套文件数据
   */
-object readFileDemo {
+object TaijiReadFileDemo {
   def main(args: Array[String]): Unit = {
     val env = ExecutionEnvironment.getExecutionEnvironment
 
@@ -28,11 +27,11 @@ object readFileDemo {
     */
 
     //读取嵌套文件
-    //    val list: util.List[String] = FindHdfsPaths.existFiles("/user/flink/backup_file/yanzheng/yanzheng_newsapp/*/*")
-    val list: util.List[String] = FindHdfsPaths.existFiles(args(0))
+    //    val list: util.List[String] = TaijiFindHdfsPaths.existFiles("/user/tongji/all_logs_src/2019-08-01/0000.sta.gz")
+    val list: util.List[String] = TaijiFindHdfsPaths.existFiles(args(0))
     val paths = list.toArray(new Array[String](list.size))
     //    val format: TextInputFormat = new TextInputFormat(new Path("hdfs://10.90.92.148:8020/user/tongji/transform_logs/app_news/2019-08-01/0000.sta"))
-    //    val format: TextInputFormat = new TextInputFormat(new Path("hdfs://10.90.92.148:8020/user/flink/backup_file/yanzheng/yanzheng_newsapp/2019-08-02--1110"))
+    //    val format: TextInputFormat = new TextInputFormat(new Path("hdfs://10.80.1.159:8020/user/tongji/all_logs_src/2019-08-01/0000.sta.gz"))
     val format: TextInputFormat = new TextInputFormat(new Path(args(0)))
     //    format.setFilePaths("D:\\workStation\\ProjectStation\\flink-study\\src\\resources\\readFileDemo") // 该文件夹下有多个文件
     //    format.setFilePaths("D:\\workStation\\ProjectStation\\flink-study\\src\\resources\\readFileDemo",
@@ -42,7 +41,7 @@ object readFileDemo {
     format.setFilePaths(paths: _*)
     //    format.setCharsetName("UTF-8")
     //    format.supportsMultiPaths()
-    val sourceDs: DataSet[String] = env.createInput(format).withParameters(paraments)
+    val sourceDs: DataSet[String] = env.createInput(format).withParameters(paraments).filter(_.contains("appsta.js"))
     //    sourceDs.print()
 
     println(sourceDs.count())
