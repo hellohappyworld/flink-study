@@ -1,8 +1,14 @@
 package com.gaowj.api.TableSQL
 
+import java.util
+
+import com.gaowj.util.FindHdfsPaths
+import org.apache.flink.api.java.io.TextInputFormat
 import org.apache.flink.api.scala._
 import org.apache.flink.api.scala.{DataSet, ExecutionEnvironment}
+import org.apache.flink.configuration.Configuration
 import org.apache.flink.core.fs.FileSystem.WriteMode
+import org.apache.flink.core.fs.Path
 import org.apache.flink.streaming.api.scala.{DataStream, JoinedStreams, StreamExecutionEnvironment}
 import org.apache.flink.streaming.connectors.fs.StringWriter
 import org.apache.flink.streaming.connectors.fs.bucketing.{BucketingSink, DateTimeBucketer}
@@ -67,31 +73,42 @@ object InterAndMinus {
       * 差集
       */
     val tableEnv: BatchTableEnvironment = TableEnvironment.getTableEnvironment(env)
-    //    var flinkDs = env.readTextFile("hdfs://10.90.92.148:8020/user/flink/backup_file/yanzheng/yanzheng_newsapp/2019-08-05--17/_part-0-0.pending")
-    var flinkDs = env.readTextFile("D:\\workStation\\Test\\logParse\\appsta\\src20190805\\linshi\\info\\2019-08-06\\_part-0-0.pending")
+
+    val paraments = new Configuration()
+    paraments.setBoolean("recursive.file.enumeration", true)
+
+    val flink_list: util.List[String] = FindHdfsPaths.existFiles(args(0))
+    val flink_paths = flink_list.toArray(new Array[String](flink_list.size))
+    val flink_format: TextInputFormat = new TextInputFormat(new Path(args(0)))
+    flink_format.setFilePaths(flink_paths: _*)
+    val flinkDs: DataSet[String] = env.createInput(flink_format).withParameters(paraments)
       .map(line => {
         val arr: Array[String] = line.split("\t")
         arr(0) + "\t" + arr(1) + "\t" + arr(2) + "\t" + arr(3) + "\t" + arr(4) + "\t" + arr(5) + "\t" + arr(6) + "\t" + arr(7) + "\t" + arr(8) + "\t" + arr(10) + "\t" + arr(11) + "\t" + arr(12)
-        //        arr(0) + "\t" + arr(1) + "\t" + arr(2) + "\t" + arr(3) + "\t" + arr(4) + "\t" + arr(5) + "\t" + arr(6) + "\t" + arr(7) + "\t" + arr(8) + "\t" + arr(10) + "\t" + arr(11)
       })
-    println(flinkDs.count())
-    val pyDs = env.readTextFile("D:\\workStation\\Test\\logParse\\appsta\\src20190805\\linshi\\info_py.sta").map(line => {
-      val arr: Array[String] = line.split("\t")
-      arr(0) + "\t" + arr(1) + "\t" + arr(2) + "\t" + arr(3) + "\t" + arr(4) + "\t" + arr(5) + "\t" + arr(6) + "\t" + arr(7) + "\t" + arr(8) + "\t" + arr(10) + "\t" + arr(11) + "\t" + arr(12)
-      //      arr(0) + "\t" + arr(1) + "\t" + arr(2) + "\t" + arr(3) + "\t" + arr(4) + "\t" + arr(5) + "\t" + arr(6) + "\t" + arr(7) + "\t" + arr(8) + "\t" + arr(10) + "\t" + arr(11)
-    })
-    println(pyDs.count())
+    println("------flink count-------" + flinkDs.count())
+    val py_list: util.List[String] = FindHdfsPaths.existFiles(args(1))
+    val py_paths = py_list.toArray(new Array[String](py_list.size))
+    val py_format: TextInputFormat = new TextInputFormat(new Path(args(1)))
+    py_format.setFilePaths(py_paths: _*)
+    val pyDs: DataSet[String] = env.createInput(py_format).withParameters(paraments)
+      .map(line => {
+        val arr: Array[String] = line.split("\t")
+        arr(0) + "\t" + arr(1) + "\t" + arr(2) + "\t" + arr(3) + "\t" + arr(4) + "\t" + arr(5) + "\t" + arr(6) + "\t" + arr(7) + "\t" + arr(8) + "\t" + arr(10) + "\t" + arr(11) + "\t" + arr(12)
+      })
+    println("------py count-------" + pyDs.count())
     //*****交集*****
     val table_flinkDs: Table = tableEnv.fromDataSet(flinkDs)
     val table_pyDs: Table = tableEnv.fromDataSet(pyDs)
     val table_inter: Table = table_flinkDs.intersectAll(table_pyDs)
     val interData: DataSet[String] = tableEnv.toDataSet[String](table_inter)
-    print(interData.count())
+    print("------inter count-------" + interData.count())
     //******差集********
-    //    val minusTable: Table = table_pyDs.minusAll(table_flinkDs)
+    //    val minusTable: Table = table_pyDs.minusAll(table_inter)
     //    val minusTable: Table = table_pyDs.minusAll(table_inter)
     //    val minusTable: Table = table_pyDs.minusAll(table_inter)
     //    val minuxData: DataSet[String] = tableEnv.toDataSet[String](minusTable)
+    //    minuxData.print()
     //    //    //    println(minuxData.count())
     //    minuxData.writeAsText("D:\\workStation\\Test\\logParse\\appsta\\src20190805\\linshi\\minus_py", WriteMode.OVERWRITE).setParallelism(1)
     //    env.execute("chaji")
