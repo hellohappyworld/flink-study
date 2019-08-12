@@ -103,6 +103,7 @@ object InterAndMinus {
     val table_inter: Table = table_flinkDs.intersectAll(table_pyDs)
     val interData: DataSet[String] = tableEnv.toDataSet[String](table_inter)
     print("------inter count-------" + interData.count())
+    //    print("flink:" + flinkDs.count() + "py" + pyDs.count() + "inter:" + interData.count())
     //******差集********
     //    val minusTable: Table = table_pyDs.minusAll(table_inter)
     //    val minusTable: Table = table_pyDs.minusAll(table_inter)
