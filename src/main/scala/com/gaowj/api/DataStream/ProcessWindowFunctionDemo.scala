@@ -13,7 +13,12 @@ import org.apache.flink.util.Collector
   * Created on 2019-05-31.
   * ProcessWindowFunction.
   * original -> https://ci.apache.org/projects/flink/flink-docs-release-1.8/dev/stream/operators/windows.html#processwindowfunction
+
+    ProcessWindowFunction会暂存Window下所有的记录，然后进行计算。从这个角度来说ProcessWindowFunction能处理的情况更多。
+  * 但是同时会占用更多的性能和资源。
   */
+
+
 object ProcessWindowFunctionDemo {
   def main(args: Array[String]): Unit = {
     val env = StreamExecutionEnvironment.getExecutionEnvironment
@@ -34,7 +39,14 @@ object ProcessWindowFunctionDemo {
 }
 
 
-// ProcessWindowFunction中参数分别为[(元素数据类型),输出结果类型,key数据类型,时间窗口]
+/**
+  * ProcessWindowFunction类型参数说明：IN, OUT, KEY, W extends Window
+  * IN：输入数据流记录的类型
+  * OUT：输出数据流记录的类型
+  * KEY：The key parameter is the key that is extracted via the KeySelector that was specified for the keyBy() invocation.
+  * In case of tuple-index keys or string-field references this key type is always Tuple and you have to manually cast it to a tuple of the correct size to extract the key fields.
+  * Window：窗口的类型
+  */
 class MyProcessWindowFunction extends ProcessWindowFunction[(String, String), String, Tuple, TimeWindow] {
 
   override def process(key: Tuple, context: Context, input: Iterable[(String, String)], out: Collector[String]): Unit = {
