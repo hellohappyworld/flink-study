@@ -1,5 +1,6 @@
 package com.gaowj.api.DataStream.jdbc
 
+import org.apache.flink.streaming.api.scala._
 import org.apache.flink.streaming.api.scala.StreamExecutionEnvironment
 
 /**
