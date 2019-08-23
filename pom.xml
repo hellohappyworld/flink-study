@@ -11,24 +11,6 @@
 
 
     <dependencies>
-        <!--&lt;!&ndash; https://mvnrepository.com/artifact/commons-collections/commons-collections &ndash;&gt;-->
-        <!--<dependency>-->
-        <!--<groupId>commons-collections</groupId>-->
-        <!--<artifactId>commons-collections</artifactId>-->
-        <!--<version>3.2.2</version>-->
-        <!--</dependency>-->
-
-        <!--&lt;!&ndash; https://mvnrepository.com/artifact/com.google.guava/guava &ndash;&gt;-->
-        <!--<dependency>-->
-        <!--<groupId>com.google.guava</groupId>-->
-        <!--<artifactId>guava</artifactId>-->
-        <!--<version>27.1-jre</version>-->
-        <!--</dependency>-->
-        <!--<dependency>-->
-        <!--<groupId>com.ifeng.sig2</groupId>-->
-        <!--<artifactId>Sign_20190513</artifactId>-->
-        <!--<version>1.0</version>-->
-        <!--</dependency>-->
         <dependency>
             <groupId>com.ifeng.sig20190717</groupId>
             <artifactId>Sign_20190717</artifactId>
@@ -43,33 +25,18 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.4</version>
-            <!--<scope>test</scope>-->
         </dependency>
         <dependency>
             <groupId>org.specs</groupId>
             <artifactId>specs</artifactId>
             <version>1.2.5</version>
-            <!--<scope>test</scope>-->
         </dependency>
-        <!--<dependency>-->
-        <!--<groupId>org.apache.flink</groupId>-->
-        <!--<artifactId>flink-core</artifactId>-->
-        <!--<version>1.6.1</version>-->
-        <!--</dependency>-->
-        <!-- https://mvnrepository.com/artifact/org.apache.flink/flink-table -->
         <dependency>
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-table_2.11</artifactId>
-            <version>1.6.1</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>xml-apis</groupId>
-                    <artifactId>xml-apis</artifactId>
-                </exclusion>
-            </exclusions>
-            <!--<scope>provided</scope>-->
+            <version>1.7.2</version>
+            <scope>provided</scope>
         </dependency>
-
         <dependency>
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-java</artifactId>
@@ -92,7 +59,6 @@
                 </exclusion>
             </exclusions>
         </dependency>
-
         <dependency>
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-streaming-scala_2.11</artifactId>
@@ -103,46 +69,42 @@
                     <artifactId>xml-apis</artifactId>
                 </exclusion>
             </exclusions>
-            <!--<scope>provided</scope>-->
         </dependency>
-
-        <!-- https://mvnrepository.com/artifact/org.apache.avro/avro -->
         <dependency>
             <groupId>org.apache.avro</groupId>
             <artifactId>avro</artifactId>
             <version>1.8.2</version>
         </dependency>
-
-
-        <!--<dependency>-->
-        <!--<groupId>org.apache.flink</groupId>-->
-        <!--<artifactId>flink-streaming-java_2.11</artifactId>-->
-        <!--<version>1.6.1</version>-->
-        <!--<exclusions>-->
-        <!--<exclusion>-->
-        <!--<groupId>xml-apis</groupId>-->
-        <!--<artifactId>xml-apis</artifactId>-->
-        <!--</exclusion>-->
-        <!--</exclusions>-->
-        <!--&lt;!&ndash; <scope>provided</scope>&ndash;&gt;-->
-        <!--</dependency>-->
-
-        <!-- https://mvnrepository.com/artifact/org.apache.flink/flink-streaming-java -->
+        <dependency>
+            <groupId>org.apache.flink</groupId>
+            <artifactId>flink-core</artifactId>
+            <version>1.8.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.flink</groupId>
+            <artifactId>flink-table-planner_2.11</artifactId>
+            <version>1.8.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.flink</groupId>
+            <artifactId>flink-table-api-java-bridge_2.11</artifactId>
+            <version>1.8.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.flink</groupId>
+            <artifactId>flink-table-api-scala-bridge_2.11</artifactId>
+            <version>1.8.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.flink</groupId>
+            <artifactId>flink-table-common</artifactId>
+            <version>1.8.0</version>
+        </dependency>
         <dependency>
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-streaming-java_2.11</artifactId>
             <version>1.8.0</version>
-            <!--<scope>provided</scope>-->
         </dependency>
-
-
-        <!--<dependency>-->
-        <!--<groupId>org.apache.flink</groupId>-->
-        <!--<artifactId>flink-clients_2.11</artifactId>-->
-        <!--<version>1.6.1</version>-->
-        <!--<scope>provided</scope>-->
-        <!--</dependency>-->
-
         <dependency>
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-connector-kafka-0.10_2.11</artifactId>
@@ -154,8 +116,6 @@
                 </exclusion>
             </exclusions>
         </dependency>
-
-
         <dependency>
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-connector-filesystem_2.11</artifactId>
@@ -167,7 +127,6 @@
                 </exclusion>
             </exclusions>
         </dependency>
-
         <dependency>
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-hadoop-compatibility_2.11</artifactId>
@@ -180,20 +139,6 @@
             </exclusions>
             <!--<scope>test</scope>-->
         </dependency>
-
-
-        <!--<dependency>-->
-        <!--<groupId>org.apache.flink</groupId>-->
-        <!--<artifactId>flink-core</artifactId>-->
-        <!--<version>1.6.1</version>-->
-        <!--</dependency>-->
-
-        <!--<dependency>-->
-        <!--<groupId>com.google.protobuf</groupId>-->
-        <!--<artifactId>protobuf-java</artifactId>-->
-        <!--<version>2.5.0</version>-->
-        <!--</dependency>-->
-
         <dependency>
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-hadoop-fs</artifactId>
@@ -205,20 +150,6 @@
                 </exclusion>
             </exclusions>
         </dependency>
-
-        <!--<dependency>-->
-        <!--<groupId>org.apache.hadoop</groupId>-->
-        <!--<artifactId>hadoop-common</artifactId>-->
-        <!--<version>3.2.0</version>-->
-        <!--</dependency>-->
-
-        <!--<dependency>-->
-        <!--<groupId>org.apache.hadoop</groupId>-->
-        <!--<artifactId>hadoop-mapred</artifactId>-->
-        <!--<version>0.22.0</version>-->
-        <!--</dependency>-->
-
-        <!-- https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-common -->
         <dependency>
             <groupId>org.apache.hadoop</groupId>
             <artifactId>hadoop-common</artifactId>
@@ -230,8 +161,6 @@
                 </exclusion>
             </exclusions>
         </dependency>
-
-        <!-- https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-hdfs -->
         <dependency>
             <groupId>org.apache.hadoop</groupId>
             <artifactId>hadoop-hdfs</artifactId>
@@ -243,7 +172,6 @@
                 </exclusion>
             </exclusions>
         </dependency>
-
         <dependency>
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-statebackend-rocksdb_2.11</artifactId>
@@ -254,17 +182,8 @@
                     <artifactId>xml-apis</artifactId>
                 </exclusion>
             </exclusions>
-            <!--<scope>test</scope>-->
         </dependency>
-
-        <!--<dependency>-->
-        <!--<groupId>org.apache.hadoop</groupId>-->
-        <!--<artifactId>hadoop-mapred</artifactId>-->
-        <!--<version>0.22.0</version>-->
-        <!--</dependency>-->
-
     </dependencies>
-
     <repositories>
         <repository>
             <id>cloudera</id>

@@ -2,14 +2,17 @@ package com.gaowj.api.TableSQL
 
 import java.{io, lang}
 
+import org.apache.flink.api.scala._
 import org.apache.flink.api.common.typeinfo.TypeInformation
 import org.apache.flink.streaming.api.scala.{DataStream, StreamExecutionEnvironment}
+import org.apache.flink.table.api.scala._
 import org.apache.flink.table.api.{Table, TableEnvironment, Types}
 import org.apache.flink.table.api.scala.StreamTableEnvironment
 import org.apache.flink.table.catalog.InMemoryExternalCatalog
 import org.apache.flink.table.sinks.{CsvTableSink, TableSink}
 import org.apache.flink.table.sources.{CsvTableSource, TableSource}
 import org.apache.flink.types.Row
+
 
 /**
   * Created on 2019-08-20
@@ -92,10 +95,15 @@ object TableDemo {
 
 
     //将表转换为DataStream
-    //    val table: Table = tableEnv.sqlQuery("select * from table1")
+    val ds: DataStream[(Int, String, Int)] = env.fromElements((1, "liming", 23), (2, "wanghong", 34))
+    ds.print()
+    //    tableEnv.registerDataStream("addTable", ds, 'id, 'numbers, 'word)
+    //    val table: Table = tableEnv.sqlQuery("select * from addTable")
     //    val dsRow: DataStream[Row] = tableEnv.toAppendStream[Row](table)
+    //    dsRow.print()
     //    val dsTuple: DataStream[(String, Int)] = tableEnv.toAppendStream[(String, Int)](table) // Table仅通过INSERT更改修改时才能使用此模式
     //    val retractStream: DataStream[(Boolean, Row)] = tableEnv.toRetractStream[Row](table)
 
+    env.execute()
   }
 }
