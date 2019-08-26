@@ -154,5 +154,24 @@
     <orderEntry type="library" name="Maven: xerces:xercesImpl:2.9.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.flink:flink-statebackend-rocksdb_2.11:1.8.0" level="project" />
     <orderEntry type="library" name="Maven: com.data-artisans:frocksdbjni:5.17.2-artisans-1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.flink:flink-hbase_2.11:1.8.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.hbase:hbase-server:1.4.3" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.hbase:hbase-common:1.4.3" level="project" />
+    <orderEntry type="library" name="Maven: com.github.stephenc.findbugs:findbugs-annotations:1.3.9-1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.hbase:hbase-protocol:1.4.3" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.hbase:hbase-procedure:1.4.3" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.hbase:hbase-common:tests:1.4.3" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.hbase:hbase-client:1.4.3" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.hbase:hbase-prefix-tree:1.4.3" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.hbase:hbase-metrics-api:1.4.3" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.hbase:hbase-metrics:1.4.3" level="project" />
+    <orderEntry type="library" name="Maven: io.dropwizard.metrics:metrics-core:3.1.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.hbase:hbase-hadoop-compat:1.4.3" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.hbase:hbase-hadoop2-compat:1.4.3" level="project" />
+    <orderEntry type="library" name="Maven: com.yammer.metrics:metrics-core:2.2.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.commons:commons-math:2.2" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-all:4.1.8.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.htrace:htrace-core:3.1.0-incubating" level="project" />
+    <orderEntry type="library" name="Maven: com.lmax:disruptor:3.3.0" level="project" />
   </component>
 </module>

@@ -17,7 +17,7 @@ object KafkaConsumerDemo {
   private val KAFKA_BROKER: String = "10.80.28.154:9092,10.80.29.154:9092,10.80.30.154:9092,10.80.31.154:9092,10.80.32.154:9092"
   private val TRANSACTION_GROUP: String = "jddhwbwhs"
 
-  private val TOPIC: String = "app_newsapp_logs_test"
+  private val TOPIC: String = "app_newsapp_test"
   //  private val TOPIC: String = "app_news"
 
 

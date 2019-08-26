@@ -137,7 +137,6 @@
                     <artifactId>xml-apis</artifactId>
                 </exclusion>
             </exclusions>
-            <!--<scope>test</scope>-->
         </dependency>
         <dependency>
             <groupId>org.apache.flink</groupId>
@@ -183,6 +182,22 @@
                 </exclusion>
             </exclusions>
         </dependency>
+        <!--<dependency>-->
+        <!--<groupId>org.apache.hbase</groupId>-->
+        <!--<artifactId>hbase-client</artifactId>-->
+        <!--<version>2.2.0</version>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+        <!--<groupId>org.apache.hbase</groupId>-->
+        <!--<artifactId>hbase-server</artifactId>-->
+        <!--<version>2.2.0</version>-->
+        <!--</dependency>-->
+        <dependency>
+            <groupId>org.apache.flink</groupId>
+            <artifactId>flink-hbase_2.11</artifactId>
+            <version>1.8.0</version>
+        </dependency>
+
     </dependencies>
     <repositories>
         <repository>

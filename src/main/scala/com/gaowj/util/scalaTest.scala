@@ -8,8 +8,8 @@ import org.apache.hadoop.io.compress.GzipCodec
 
 object scalaTest {
   def main(args: Array[String]): Unit = {
-    val str = "[02/Aug/2019:10:09:59 +0800]"
-    val arr: Array[String] = str.split("//")
+    val str = "119.188.101.187"
+    val arr: Array[String] = str.split("\\.")
     arr.foreach(println)
   }
 }
